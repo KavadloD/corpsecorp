@@ -12,6 +12,8 @@ public class PossessionObject : MonoBehaviour
     public int Facing { get; set; } = 1;
     public bool ControlLocked { get; protected set; }
     public virtual void DoAction() { }
+    public bool ActionHeld { get; set; }
+    public virtual float CurrentSpeed => moveSpeed;
 
     void Awake()
     {

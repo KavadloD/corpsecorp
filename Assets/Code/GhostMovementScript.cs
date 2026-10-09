@@ -40,9 +40,10 @@ public class GhostMovementScript : MonoBehaviour
             if (movement.x != 0) body.Facing = (int)Mathf.Sign(movement.x);
             if (Input.GetKeyDown(KeyCode.W)) body.Jump();
             if (Input.GetKeyDown(KeyCode.Space)) body.DoAction();
+            body.ActionHeld = Input.GetKey(KeyCode.Space);
         }
 
-        if (Input.GetKey(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.P))
         {
             int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
             SceneManager.LoadScene(currentSceneIndex);
@@ -55,7 +56,7 @@ public class GhostMovementScript : MonoBehaviour
         if (body)
         {
             if (!body.ControlLocked)
-                body.Rb.linearVelocity = new Vector2(movement.x * body.moveSpeed, body.Rb.linearVelocity.y);
+                body.Rb.linearVelocity = new Vector2(movement.x * body.CurrentSpeed, body.Rb.linearVelocity.y);
         }
         else
         {
@@ -85,6 +86,7 @@ public class GhostMovementScript : MonoBehaviour
         transform.position = body.transform.position;
         body.Rb.linearVelocity = new Vector2(0, body.Rb.linearVelocity.y);
         nearby = body;
+        body.ActionHeld = false;
         body = null;
         rb.simulated = true;
     }
