@@ -9,6 +9,8 @@ public class GhostMovementScript : MonoBehaviour
     PossessionObject body;
     PossessionObject nearby;
     Vector2 movement;
+    public float flyAcceleration = 30f;
+    public float flyDrag = 12f;
 
     void Awake()
     {
@@ -28,9 +30,9 @@ public class GhostMovementScript : MonoBehaviour
 
         if (body)
         {
-            if (Input.GetKeyDown(KeyCode.Q)) Leave();
+            if (Input.GetKeyDown(KeyCode.Space)) Leave();
         }
-        else if (nearby && Input.GetKeyDown(KeyCode.E))
+        else if (nearby && Input.GetKeyDown(KeyCode.Space))
         {
             Possess(nearby);
         }
@@ -38,8 +40,16 @@ public class GhostMovementScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (body) body.Rb.linearVelocity = new Vector2(movement.x * speed, body.Rb.linearVelocity.y);
-        else rb.linearVelocity = movement.normalized * speed;
+        if (body)
+        {
+            body.Rb.linearVelocity = new Vector2(movement.x * body.moveSpeed, body.Rb.linearVelocity.y);
+        }
+        else
+        {
+            Vector2 target = movement.normalized * speed;
+            float rate = movement.sqrMagnitude > 0 ? flyAcceleration : flyDrag;
+            rb.linearVelocity = Vector2.MoveTowards(rb.linearVelocity, target, rate * Time.fixedDeltaTime);
+        }
     }
 
     void LateUpdate()

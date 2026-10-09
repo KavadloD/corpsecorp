@@ -4,6 +4,7 @@ using UnityEngine;
 public class PossessionObject : MonoBehaviour
 {
     public float gravity = 3f;
+    public float moveSpeed = 3f;
     public Rigidbody2D Rb { get; private set; }
 
     void Awake()

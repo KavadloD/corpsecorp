@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -11,9 +11,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Ghost
+  - Corpse
+  - Ground
   - 
   - 
   - 
@@ -41,3 +41,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 759087497
+    locked: 0
+  - name: Ground
+    uniqueID: 961601381
+    locked: 0
+  - name: Corpses
+    uniqueID: 1146943555
+    locked: 0
+  - name: Ghost
+    uniqueID: 1779919399
+    locked: 0
+  - name: Foreground
+    uniqueID: 1009668555
+    locked: 0
+  m_RenderingLayers:
+  - Default
