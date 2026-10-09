@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D), typeof(BoxCollider2D))]
+[RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
 public class PossessionObject : MonoBehaviour
 {
     public float gravity = 3f;
