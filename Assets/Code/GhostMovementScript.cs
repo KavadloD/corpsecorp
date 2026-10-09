@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
 public class GhostMovementScript : MonoBehaviour
@@ -28,21 +29,33 @@ public class GhostMovementScript : MonoBehaviour
             (Input.GetKey(KeyCode.D) ? 1 : 0) - (Input.GetKey(KeyCode.A) ? 1 : 0),
             (Input.GetKey(KeyCode.W) ? 1 : 0) - (Input.GetKey(KeyCode.S) ? 1 : 0));
 
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (body) Leave();
+            else if (nearby) Possess(nearby);
+        }
+
         if (body)
         {
-            if (Input.GetKeyDown(KeyCode.Space)) Leave();
+            if (movement.x != 0) body.Facing = (int)Mathf.Sign(movement.x);
+            if (Input.GetKeyDown(KeyCode.W)) body.Jump();
+            if (Input.GetKeyDown(KeyCode.Space)) body.DoAction();
         }
-        else if (nearby && Input.GetKeyDown(KeyCode.Space))
+
+        if (Input.GetKey(KeyCode.P))
         {
-            Possess(nearby);
+            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(currentSceneIndex);
         }
     }
+
 
     void FixedUpdate()
     {
         if (body)
         {
-            body.Rb.linearVelocity = new Vector2(movement.x * body.moveSpeed, body.Rb.linearVelocity.y);
+            if (!body.ControlLocked)
+                body.Rb.linearVelocity = new Vector2(movement.x * body.moveSpeed, body.Rb.linearVelocity.y);
         }
         else
         {
@@ -50,6 +63,8 @@ public class GhostMovementScript : MonoBehaviour
             float rate = movement.sqrMagnitude > 0 ? flyAcceleration : flyDrag;
             rb.linearVelocity = Vector2.MoveTowards(rb.linearVelocity, target, rate * Time.fixedDeltaTime);
         }
+
+
     }
 
     void LateUpdate()

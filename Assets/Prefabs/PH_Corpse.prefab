@@ -45,7 +45,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: a11d04981aea90e4498cf946945643ad, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -108,11 +108,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 6060872563810684953}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c815d7785d3c59f41aefcd1964f64ee4, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c362c542e9bf924d97386f486dc789a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PossessionObject
   gravity: 3
   moveSpeed: 4
+  jumpHeight: 1.25
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 256
+  dashSpeed: 14
+  dashDuration: 0.18
+  dashCooldown: 0.6
 --- !u!1 &7949890274300085742
 GameObject:
   m_ObjectHideFlags: 0
