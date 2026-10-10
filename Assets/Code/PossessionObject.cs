@@ -15,6 +15,7 @@ public class PossessionObject : MonoBehaviour
     public bool ActionHeld { get; set; }
     public virtual float CurrentSpeed => moveSpeed;
     public bool IsPossessed { get; private set; }
+    float carryTime = -1f;
 
     void Awake()
     {
@@ -39,8 +40,13 @@ public class PossessionObject : MonoBehaviour
 
     public void Jump()
     {
+        JumpWithHeight(jumpHeight);
+    }
+
+    public void JumpWithHeight(float height)
+    {
         if (!IsGrounded) return;
-        float v = Mathf.Sqrt(2f * Physics2D.gravity.magnitude * Rb.gravityScale * jumpHeight);
+        float v = Mathf.Sqrt(2f * Physics2D.gravity.magnitude * Rb.gravityScale * height);
         Rb.linearVelocity = new Vector2(Rb.linearVelocity.x, v);
     }
 
@@ -56,5 +62,24 @@ public class PossessionObject : MonoBehaviour
             ActionHeld = false;
             Rb.linearVelocity = new Vector2(0f, Rb.linearVelocity.y);
         }
+    }
+
+    public void Carry(float vx)
+    {
+        if (IsPossessed) return;
+        carryTime = Time.fixedTime;
+        Rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+        Rb.linearVelocity = new Vector2(vx, Rb.linearVelocity.y);
+    }
+
+    public void StopCarry()
+    {
+        carryTime = -1f;
+        if (!IsPossessed) SetPossessed(false);
+    }
+
+    void LateUpdate()
+    {
+        if (carryTime >= 0f && Time.fixedTime - carryTime > 0.1f) StopCarry();
     }
 }
