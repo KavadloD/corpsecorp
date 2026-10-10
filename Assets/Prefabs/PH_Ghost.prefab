@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb3bf72c405278d46b2a47bd0bf2d17f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GhostMovementScript
-  speed: 8
+  speed: 10
   flyAcceleration: 30
   flyDrag: 20
 --- !u!1 &4504738344065013479
