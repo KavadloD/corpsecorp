@@ -117,7 +117,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 256
-  pushSpeed: 1.5
+  pushSpeed: 2.5
 --- !u!1 &7949890274300085742
 GameObject:
   m_ObjectHideFlags: 0
