@@ -76,6 +76,7 @@ public class GhostMovementScript : MonoBehaviour
     void Possess(PossessionObject target)
     {
         body = target;
+        body.SetPossessed(true);
         nearby = null;
         rb.linearVelocity = Vector2.zero;
         rb.simulated = false;
@@ -84,9 +85,8 @@ public class GhostMovementScript : MonoBehaviour
     void Leave()
     {
         transform.position = body.transform.position;
-        body.Rb.linearVelocity = new Vector2(0, body.Rb.linearVelocity.y);
         nearby = body;
-        body.ActionHeld = false;
+        body.SetPossessed(false);
         body = null;
         rb.simulated = true;
     }

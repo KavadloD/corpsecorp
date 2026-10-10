@@ -14,13 +14,14 @@ public class PossessionObject : MonoBehaviour
     public virtual void DoAction() { }
     public bool ActionHeld { get; set; }
     public virtual float CurrentSpeed => moveSpeed;
+    public bool IsPossessed { get; private set; }
 
     void Awake()
     {
         Rb = GetComponent<Rigidbody2D>();
         Rb.bodyType = RigidbodyType2D.Dynamic;
         Rb.gravityScale = gravity;
-        Rb.freezeRotation = true;
+        SetPossessed(false);
         GetComponent<Collider2D>().isTrigger = false;
         col = GetComponent<Collider2D>();
     }
@@ -41,5 +42,19 @@ public class PossessionObject : MonoBehaviour
         if (!IsGrounded) return;
         float v = Mathf.Sqrt(2f * Physics2D.gravity.magnitude * Rb.gravityScale * jumpHeight);
         Rb.linearVelocity = new Vector2(Rb.linearVelocity.x, v);
+    }
+
+    public void SetPossessed(bool possessed)
+    {
+        IsPossessed = possessed;
+        Rb.constraints = possessed
+            ? RigidbodyConstraints2D.FreezeRotation
+            : RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation;
+
+        if (!possessed)
+        {
+            ActionHeld = false;
+            Rb.linearVelocity = new Vector2(0f, Rb.linearVelocity.y);
+        }
     }
 }

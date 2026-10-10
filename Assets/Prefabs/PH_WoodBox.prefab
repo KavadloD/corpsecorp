@@ -11,10 +11,11 @@ GameObject:
   - component: {fileID: 2551333843205746128}
   - component: {fileID: 5584053119077414837}
   - component: {fileID: 813901187175430405}
-  - component: {fileID: 9137337475636965558}
   - component: {fileID: 6881451264001205639}
+  - component: {fileID: 3963244831181178795}
+  - component: {fileID: 3961617102243707798}
   m_Layer: 8
-  m_Name: PH_BreakableBox
+  m_Name: PH_WoodBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83,7 +84,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.9846895, g: 0.99371064, b: 0.528104, a: 1}
+  m_Color: {r: 0.91194963, g: 0.78812623, b: 0.3928839, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -139,18 +140,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.98, y: 1}
   m_EdgeRadius: 0
---- !u!114 &9137337475636965558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2472923152188177304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa2c310e233de424e80dff1ec7635f81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Breakable
 --- !u!50 &6881451264001205639
 Rigidbody2D:
   serializedVersion: 5
@@ -178,3 +167,27 @@ Rigidbody2D:
   m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 5
+--- !u!114 &3963244831181178795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2472923152188177304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b83fe21ff806674c84827ca597d2ed7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Pushable
+--- !u!114 &3961617102243707798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2472923152188177304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa2c310e233de424e80dff1ec7635f81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Breakable
