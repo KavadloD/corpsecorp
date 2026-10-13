@@ -23,8 +23,9 @@ public class GhostMovementScript : MonoBehaviour
         rb.gravityScale = 0;
         rb.freezeRotation = true;
         GetComponent<Collider2D>().isTrigger = true;
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        animator = GetComponent<Animator>();
+
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     void Update()
@@ -36,14 +37,17 @@ public class GhostMovementScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (body) Leave();
-            else if (nearby) Possess(nearby);
+            else if (nearby && !nearby.Impaled) Possess(nearby);
         }
+
+        if (body && body.Impaled) Leave();
+
+        if (!body && movement.x != 0)
+            spriteRenderer.flipX = movement.x < 0;
 
         if (body)
         {
             if (movement.x != 0) body.Facing = (int)Mathf.Sign(movement.x);
-            if (movement.x < 0) spriteRenderer.flipX = true; 
-        else if (movement.x > 0) spriteRenderer.flipX = false;   
             if (Input.GetKeyDown(KeyCode.W)) body.Jump();
             if (Input.GetKeyDown(KeyCode.Space)) body.DoAction();
             body.ActionHeld = Input.GetKey(KeyCode.Space);
@@ -75,8 +79,8 @@ public class GhostMovementScript : MonoBehaviour
 
     void LateUpdate()
     {
-        float speed = rb.linearVelocity.magnitude;
-        animator.SetFloat("Speed",speed);
+        float currentSpeed = rb.linearVelocity.magnitude;
+        animator.SetFloat("Speed", currentSpeed);
 
         if (body) transform.position = body.transform.position;
     }
@@ -88,22 +92,24 @@ public class GhostMovementScript : MonoBehaviour
         nearby = null;
         rb.linearVelocity = Vector2.zero;
         rb.simulated = false;
+        spriteRenderer.enabled = false;
     }
 
     void Leave()
     {
         transform.position = body.transform.position;
-        nearby = body;
+        nearby = body.Impaled ? null : body;
         body.SetPossessed(false);
         body = null;
         rb.simulated = true;
+        spriteRenderer.enabled = true;
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (body) return;
         var p = other.GetComponentInParent<PossessionObject>();
-        if (p) nearby = p;
+        if (p && !p.Impaled) nearby = p;
     }
 
     void OnTriggerExit2D(Collider2D other)
