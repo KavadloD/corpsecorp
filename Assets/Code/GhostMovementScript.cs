@@ -12,6 +12,8 @@ public class GhostMovementScript : MonoBehaviour
     Vector2 movement;
     public float flyAcceleration = 30f;
     public float flyDrag = 12f;
+    SpriteRenderer spriteRenderer;
+    Animator animator;
 
     void Awake()
     {
@@ -21,6 +23,8 @@ public class GhostMovementScript : MonoBehaviour
         rb.gravityScale = 0;
         rb.freezeRotation = true;
         GetComponent<Collider2D>().isTrigger = true;
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -38,6 +42,8 @@ public class GhostMovementScript : MonoBehaviour
         if (body)
         {
             if (movement.x != 0) body.Facing = (int)Mathf.Sign(movement.x);
+            if (movement.x < 0) spriteRenderer.flipX = true; 
+        else if (movement.x > 0) spriteRenderer.flipX = false;   
             if (Input.GetKeyDown(KeyCode.W)) body.Jump();
             if (Input.GetKeyDown(KeyCode.Space)) body.DoAction();
             body.ActionHeld = Input.GetKey(KeyCode.Space);
@@ -65,11 +71,13 @@ public class GhostMovementScript : MonoBehaviour
             rb.linearVelocity = Vector2.MoveTowards(rb.linearVelocity, target, rate * Time.fixedDeltaTime);
         }
 
-
     }
 
     void LateUpdate()
     {
+        float speed = rb.linearVelocity.magnitude;
+        animator.SetFloat("Speed",speed);
+
         if (body) transform.position = body.transform.position;
     }
 

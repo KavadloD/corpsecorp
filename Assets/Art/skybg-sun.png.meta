@@ -1,0 +1,4368 @@
+fileFormatVersion: 2
+guid: 2f93dc516c654e84abcf855c75bc113f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6001270871195636072
+    second: skybg-sun_0
+  - first:
+      213: 4029342566965698233
+    second: skybg-sun_1
+  - first:
+      213: 3108863563463912939
+    second: skybg-sun_2
+  - first:
+      213: -233957010405135230
+    second: skybg-sun_3
+  - first:
+      213: 4056162654136961168
+    second: skybg-sun_4
+  - first:
+      213: -4688274546056470713
+    second: skybg-sun_5
+  - first:
+      213: 10854030540470394
+    second: skybg-sun_6
+  - first:
+      213: -7117517396480616529
+    second: skybg-sun_7
+  - first:
+      213: 7958180159155881747
+    second: skybg-sun_8
+  - first:
+      213: -8958842572183794757
+    second: skybg-sun_9
+  - first:
+      213: 9135938932837755864
+    second: skybg-sun_10
+  - first:
+      213: 3320860344777020652
+    second: skybg-sun_11
+  - first:
+      213: -3088596363065895801
+    second: skybg-sun_12
+  - first:
+      213: -2858320089439229628
+    second: skybg-sun_13
+  - first:
+      213: -7769225099425063256
+    second: skybg-sun_14
+  - first:
+      213: 8084323945126956604
+    second: skybg-sun_15
+  - first:
+      213: 4177671332303722873
+    second: skybg-sun_16
+  - first:
+      213: 3051346661834729332
+    second: skybg-sun_17
+  - first:
+      213: 7745106117307278927
+    second: skybg-sun_18
+  - first:
+      213: 740443724283924525
+    second: skybg-sun_19
+  - first:
+      213: -5214708381838326774
+    second: skybg-sun_20
+  - first:
+      213: -3289588794455040554
+    second: skybg-sun_21
+  - first:
+      213: 1463942407581135617
+    second: skybg-sun_22
+  - first:
+      213: 3727060883321049052
+    second: skybg-sun_23
+  - first:
+      213: -2068743937315946307
+    second: skybg-sun_24
+  - first:
+      213: -2635462276125286718
+    second: skybg-sun_25
+  - first:
+      213: 4101265534791981388
+    second: skybg-sun_26
+  - first:
+      213: 8488465177896095563
+    second: skybg-sun_27
+  - first:
+      213: 4952946881039821913
+    second: skybg-sun_28
+  - first:
+      213: -8894604989563140878
+    second: skybg-sun_29
+  - first:
+      213: -4614888997204595938
+    second: skybg-sun_30
+  - first:
+      213: -7556835463378766231
+    second: skybg-sun_31
+  - first:
+      213: -5225891111519367647
+    second: skybg-sun_32
+  - first:
+      213: 5607348308786361861
+    second: skybg-sun_33
+  - first:
+      213: 3721005316263486779
+    second: skybg-sun_34
+  - first:
+      213: -5087996830784805245
+    second: skybg-sun_35
+  - first:
+      213: -4704883387642336861
+    second: skybg-sun_36
+  - first:
+      213: 8526192188921087187
+    second: skybg-sun_37
+  - first:
+      213: -4854159202293982578
+    second: skybg-sun_38
+  - first:
+      213: -5458252984714492017
+    second: skybg-sun_39
+  - first:
+      213: -7362667298206437073
+    second: skybg-sun_40
+  - first:
+      213: -3308922214011714989
+    second: skybg-sun_41
+  - first:
+      213: 3038145310780326302
+    second: skybg-sun_42
+  - first:
+      213: -2248366971482392011
+    second: skybg-sun_43
+  - first:
+      213: 5662656923821653370
+    second: skybg-sun_44
+  - first:
+      213: -5758059396379715878
+    second: skybg-sun_45
+  - first:
+      213: 1385255470911383273
+    second: skybg-sun_46
+  - first:
+      213: 3701848847410117192
+    second: skybg-sun_47
+  - first:
+      213: 5877854107639050550
+    second: skybg-sun_48
+  - first:
+      213: -5253685446717495442
+    second: skybg-sun_49
+  - first:
+      213: 3427839933212269208
+    second: skybg-sun_50
+  - first:
+      213: -4291208914196161431
+    second: skybg-sun_51
+  - first:
+      213: -985089055213499395
+    second: skybg-sun_52
+  - first:
+      213: 6771496116653088586
+    second: skybg-sun_53
+  - first:
+      213: 5619958342340891653
+    second: skybg-sun_54
+  - first:
+      213: -7911131802851437692
+    second: skybg-sun_55
+  - first:
+      213: 7265791309941346788
+    second: skybg-sun_56
+  - first:
+      213: -4160866262606268091
+    second: skybg-sun_57
+  - first:
+      213: -2896969655379520710
+    second: skybg-sun_58
+  - first:
+      213: -4333625052819944143
+    second: skybg-sun_59
+  - first:
+      213: -7970940348358532942
+    second: skybg-sun_60
+  - first:
+      213: 7604471465277108268
+    second: skybg-sun_61
+  - first:
+      213: -2089711776582971893
+    second: skybg-sun_62
+  - first:
+      213: -6486724341011125989
+    second: skybg-sun_63
+  - first:
+      213: 8666843079440446004
+    second: skybg-sun_64
+  - first:
+      213: 5442820902184463630
+    second: skybg-sun_65
+  - first:
+      213: -7869094501903726278
+    second: skybg-sun_66
+  - first:
+      213: 7037695250374938773
+    second: skybg-sun_67
+  - first:
+      213: 6887273643000976491
+    second: skybg-sun_68
+  - first:
+      213: 2242104260198814671
+    second: skybg-sun_69
+  - first:
+      213: 3810561044228030785
+    second: skybg-sun_70
+  - first:
+      213: -6314789270409401725
+    second: skybg-sun_71
+  - first:
+      213: 8365354225968431518
+    second: skybg-sun_72
+  - first:
+      213: -9004926958870204682
+    second: skybg-sun_73
+  - first:
+      213: -336857050278976491
+    second: skybg-sun_74
+  - first:
+      213: 8615171037107086454
+    second: skybg-sun_75
+  - first:
+      213: 3899310198357860302
+    second: skybg-sun_76
+  - first:
+      213: -7263496826004153581
+    second: skybg-sun_77
+  - first:
+      213: -3240184333459371929
+    second: skybg-sun_78
+  - first:
+      213: 8705542501979140102
+    second: skybg-sun_79
+  - first:
+      213: -3077761678550414035
+    second: skybg-sun_80
+  - first:
+      213: -4779969460961104537
+    second: skybg-sun_81
+  - first:
+      213: -8814425269973620297
+    second: skybg-sun_82
+  - first:
+      213: 6245298084308935512
+    second: skybg-sun_83
+  - first:
+      213: -5933961925993164231
+    second: skybg-sun_84
+  - first:
+      213: -9068986046207542176
+    second: skybg-sun_85
+  - first:
+      213: -2708945606821072748
+    second: skybg-sun_86
+  - first:
+      213: 8603863270760131639
+    second: skybg-sun_87
+  - first:
+      213: 1968997499367925413
+    second: skybg-sun_88
+  - first:
+      213: 4870570661999427176
+    second: skybg-sun_89
+  - first:
+      213: 5123772641680371897
+    second: skybg-sun_90
+  - first:
+      213: -8680945727489344992
+    second: skybg-sun_91
+  - first:
+      213: 3415333651058365116
+    second: skybg-sun_92
+  - first:
+      213: 271091616679916440
+    second: skybg-sun_93
+  - first:
+      213: -1630296844715782856
+    second: skybg-sun_94
+  - first:
+      213: 2027284820723394594
+    second: skybg-sun_95
+  - first:
+      213: -1992848414812579984
+    second: skybg-sun_96
+  - first:
+      213: -6679927886103918226
+    second: skybg-sun_97
+  - first:
+      213: -4745374316045592663
+    second: skybg-sun_98
+  - first:
+      213: -8273708232291548435
+    second: skybg-sun_99
+  - first:
+      213: 2781638823561270522
+    second: skybg-sun_100
+  - first:
+      213: -1038519646775545057
+    second: skybg-sun_101
+  - first:
+      213: 6861152458059567529
+    second: skybg-sun_102
+  - first:
+      213: 1533867752581848287
+    second: skybg-sun_103
+  - first:
+      213: -4736012932105113252
+    second: skybg-sun_104
+  - first:
+      213: -377147112782516534
+    second: skybg-sun_105
+  - first:
+      213: -6711325908097484858
+    second: skybg-sun_106
+  - first:
+      213: 6856404728004162251
+    second: skybg-sun_107
+  - first:
+      213: 2416148592218009542
+    second: skybg-sun_108
+  - first:
+      213: -8189587155970383681
+    second: skybg-sun_109
+  - first:
+      213: 9092330376190565731
+    second: skybg-sun_110
+  - first:
+      213: 5708950202312089761
+    second: skybg-sun_111
+  - first:
+      213: -5546313972360352644
+    second: skybg-sun_112
+  - first:
+      213: -5797090811066987151
+    second: skybg-sun_113
+  - first:
+      213: -8456107562254030046
+    second: skybg-sun_114
+  - first:
+      213: 6002245274187489465
+    second: skybg-sun_115
+  - first:
+      213: -2574396795298917208
+    second: skybg-sun_116
+  - first:
+      213: -7683893125846833969
+    second: skybg-sun_117
+  - first:
+      213: -5459269066662410377
+    second: skybg-sun_118
+  - first:
+      213: -7523135086317897253
+    second: skybg-sun_119
+  - first:
+      213: 3963605466414258778
+    second: skybg-sun_120
+  - first:
+      213: 576850194982712423
+    second: skybg-sun_121
+  - first:
+      213: -7534684177053302287
+    second: skybg-sun_122
+  - first:
+      213: -2313068064025197497
+    second: skybg-sun_123
+  - first:
+      213: -1088194185728206750
+    second: skybg-sun_124
+  - first:
+      213: 1660998697711795264
+    second: skybg-sun_125
+  - first:
+      213: 5818200236601607433
+    second: skybg-sun_126
+  - first:
+      213: -2942323379762558013
+    second: skybg-sun_127
+  - first:
+      213: 1656464512800389881
+    second: skybg-sun_128
+  - first:
+      213: -5379091543630727616
+    second: skybg-sun_129
+  - first:
+      213: -4900158336289572814
+    second: skybg-sun_130
+  - first:
+      213: 7773576596467227895
+    second: skybg-sun_131
+  - first:
+      213: -5054689598769174041
+    second: skybg-sun_132
+  - first:
+      213: -1563514917142192072
+    second: skybg-sun_133
+  - first:
+      213: 6352896303373259719
+    second: skybg-sun_134
+  - first:
+      213: -4164376277558361664
+    second: skybg-sun_135
+  - first:
+      213: 4867407143260216153
+    second: skybg-sun_136
+  - first:
+      213: -810358538531936589
+    second: skybg-sun_137
+  - first:
+      213: -651068690957195048
+    second: skybg-sun_138
+  - first:
+      213: -1862585089884916083
+    second: skybg-sun_139
+  - first:
+      213: 728295999696236997
+    second: skybg-sun_140
+  - first:
+      213: -3946588886524515555
+    second: skybg-sun_141
+  - first:
+      213: -8036109430372805546
+    second: skybg-sun_142
+  - first:
+      213: 3439654997198213937
+    second: skybg-sun_143
+  - first:
+      213: -6506285722903823320
+    second: skybg-sun_144
+  - first:
+      213: 874470380267342896
+    second: skybg-sun_145
+  - first:
+      213: 6493235384645688111
+    second: skybg-sun_146
+  - first:
+      213: -8899380920243933802
+    second: skybg-sun_147
+  - first:
+      213: 7670578526981748897
+    second: skybg-sun_148
+  - first:
+      213: 7112133714445197983
+    second: skybg-sun_149
+  - first:
+      213: -4743900181967726818
+    second: skybg-sun_150
+  - first:
+      213: -6819642922996335268
+    second: skybg-sun_151
+  - first:
+      213: 8964788500486528166
+    second: skybg-sun_152
+  - first:
+      213: -183273807239534402
+    second: skybg-sun_153
+  - first:
+      213: 2181192580297771371
+    second: skybg-sun_154
+  - first:
+      213: -6145432513734171730
+    second: skybg-sun_155
+  - first:
+      213: -5550563592711191420
+    second: skybg-sun_156
+  - first:
+      213: 7577261683630296391
+    second: skybg-sun_157
+  - first:
+      213: 1641992842555522074
+    second: skybg-sun_158
+  - first:
+      213: 1591172627262846566
+    second: skybg-sun_159
+  - first:
+      213: -9085012043342842013
+    second: skybg-sun_160
+  - first:
+      213: 623062254522146064
+    second: skybg-sun_161
+  - first:
+      213: 3887893214762431902
+    second: skybg-sun_162
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: skybg-sun_0
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1446
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861d38eaf0cc84350800000000000000
+      internalID: 6001270871195636072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_1
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1426
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bed95e57b91be730800000000000000
+      internalID: 4029342566965698233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_2
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 17
+        width: 1327
+        height: 1620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bedeb6380f6e42b20800000000000000
+      internalID: 3108863563463912939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_3
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 374
+        width: 300
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ce61ea651d0ccf0800000000000000
+      internalID: -233957010405135230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 979
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0980a0781726a4830800000000000000
+      internalID: 4056162654136961168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 977
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f5cc0d327efeeb0800000000000000
+      internalID: -4688274546056470713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_6
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 975
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78febaeeaf862000800000000000000
+      internalID: 10854030540470394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_7
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 973
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa71c1c53af793d90800000000000000
+      internalID: -7117517396480616529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_8
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 969
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3174c05c0b2217e60800000000000000
+      internalID: 7958180159155881747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_9
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 967
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb8656852ccba380800000000000000
+      internalID: -8958842572183794757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_10
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 966
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dba47d1e0069ce70800000000000000
+      internalID: 9135938932837755864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_11
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 119
+        width: 640
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce49d1f83e0161e20800000000000000
+      internalID: 3320860344777020652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_12
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 745
+        width: 30
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784d4ecc8f91325d0800000000000000
+      internalID: -3088596363065895801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 866
+        width: 30
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449ac9ec5053558d0800000000000000
+      internalID: -2858320089439229628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_14
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 741
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae58b86fea2e2490800000000000000
+      internalID: -7769225099425063256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_15
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 940
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e0a76abc9413070800000000000000
+      internalID: 8084323945126956604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_16
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 950
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979db4641f11af930800000000000000
+      internalID: 4177671332303722873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 940
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477ab394f9f885a20800000000000000
+      internalID: 3051346661834729332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_18
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 926
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f462ec57af42c7b60800000000000000
+      internalID: 7745106117307278927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_19
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 974
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d205c1ae4a5964a00800000000000000
+      internalID: 740443724283924525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_20
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 955
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04464dfa52a1a7b0800000000000000
+      internalID: -5214708381838326774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_21
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 944
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ddd661ab680952d0800000000000000
+      internalID: -3289588794455040554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_22
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 950
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103f0870dd7f05410800000000000000
+      internalID: 1463942407581135617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_23
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 970
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfca96602e29b330800000000000000
+      internalID: 3727060883321049052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_24
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1003
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db04a0589585a43e0800000000000000
+      internalID: -2068743937315946307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_25
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 995
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce1c9ce505fc6bd0800000000000000
+      internalID: -2635462276125286718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_26
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 990
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4914d2464f9ae830800000000000000
+      internalID: 4101265534791981388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_27
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1412
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f05c00b161dc570800000000000000
+      internalID: 8488465177896095563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_28
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1410
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ce1cb42f66cb440800000000000000
+      internalID: 4952946881039821913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_29
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1402
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f40cab33e3009480800000000000000
+      internalID: -8894604989563140878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_30
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1395
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1be2c368ee94ffb0800000000000000
+      internalID: -4614888997204595938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_31
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1382
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966fb331f2ab02790800000000000000
+      internalID: -7556835463378766231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_32
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1367
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e4407d8b7e977b0800000000000000
+      internalID: -5225891111519367647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_33
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1365
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 506391de39d41dd40800000000000000
+      internalID: 5607348308786361861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_34
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1346
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35a933de9aa3a330800000000000000
+      internalID: 3721005316263486779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_35
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1341
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38622caf6ddc369b0800000000000000
+      internalID: -5087996830784805245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_36
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1334
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a921f98c75e4beb0800000000000000
+      internalID: -4704883387642336861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_37
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1328
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d40a534f9e135670800000000000000
+      internalID: 8526192188921087187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_38
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1324
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ad2188cef82acb0800000000000000
+      internalID: -4854159202293982578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_39
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1310
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8780e754d36044b0800000000000000
+      internalID: -5458252984714492017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_40
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1295
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f213503f91d82d990800000000000000
+      internalID: -7362667298206437073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_41
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1279
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352ce6c17c85412d0800000000000000
+      internalID: -3308922214011714989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_42
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1265
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9184193019a92a20800000000000000
+      internalID: 3038145310780326302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_43
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1262
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a321cd6223cc0e0800000000000000
+      internalID: -2248366971482392011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_44
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1339
+        width: 63
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7dbb4d587cc59e40800000000000000
+      internalID: 5662656923821653370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_45
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1272
+        width: 69
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6df2b8c734710b0800000000000000
+      internalID: -5758059396379715878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_46
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1340
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6e6dae28a693310800000000000000
+      internalID: 1385255470911383273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_47
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1269
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ab11ad9eb9f5330800000000000000
+      internalID: 3701848847410117192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_48
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 553
+        width: 462
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631756f2b25529150800000000000000
+      internalID: 5877854107639050550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_49
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1248
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67a3c2ebe82717b0800000000000000
+      internalID: -5253685446717495442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_50
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1235
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a140ef142229f20800000000000000
+      internalID: 3427839933212269208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_51
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1413
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c19547a309274c0800000000000000
+      internalID: -4291208914196161431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_52
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1410
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbcfd739b24452f0800000000000000
+      internalID: -985089055213499395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_53
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 1408
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f5b0757df29fd50800000000000000
+      internalID: 6771496116653088586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_54
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1399
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504d8b7265a1efd40800000000000000
+      internalID: 5619958342340891653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_55
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1399
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4839ebf4a83063290800000000000000
+      internalID: -7911131802851437692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_56
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1396
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e19c2953b645d460800000000000000
+      internalID: 7265791309941346788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_57
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1370
+        width: 51
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549327bed22a146c0800000000000000
+      internalID: -4160866262606268091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_58
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 470
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33940e7275ebc7d0800000000000000
+      internalID: -2896969655379520710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_59
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 462
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d0fe899fedbd3c0800000000000000
+      internalID: -4333625052819944143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_60
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 448
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0e24a2cf7816190800000000000000
+      internalID: -7970940348358532942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_61
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 455
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20bf68e182888960800000000000000
+      internalID: 7604471465277108268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_62
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1354
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e42d1063adff2e0800000000000000
+      internalID: -2089711776582971893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_63
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 443
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19e62a74968af5a0800000000000000
+      internalID: -6486724341011125989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_64
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 430
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432b912acdfc64870800000000000000
+      internalID: 8666843079440446004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_65
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 413
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0da6c2f5c8c88b40800000000000000
+      internalID: 5442820902184463630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_66
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 397
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a398c062e3c5bc290800000000000000
+      internalID: -7869094501903726278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_67
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 1310
+        width: 73
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5905d0cfa8aeaa160800000000000000
+      internalID: 7037695250374938773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_68
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 372
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64dbf153e2849f50800000000000000
+      internalID: 6887273643000976491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_69
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 399
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc35a8a02fd8d1f10800000000000000
+      internalID: 2242104260198814671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_70
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 360
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141472c9415d1e430800000000000000
+      internalID: 3810561044228030785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_71
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 1288
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38aacc1ad9c5d58a0800000000000000
+      internalID: -6314789270409401725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_72
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 522
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e914923d855b71470800000000000000
+      internalID: 8365354225968431518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_73
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 516
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fee33c14a2180380800000000000000
+      internalID: -9004926958870204682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_74
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 504
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514290a2c4e335bf0800000000000000
+      internalID: -336857050278976491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_75
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1282
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6746002c96c3f8770800000000000000
+      internalID: 8615171037107086454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_76
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 502
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf9d2a47f12d1630800000000000000
+      internalID: 3899310198357860302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_77
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 495
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b58d2de10e23b90800000000000000
+      internalID: -7263496826004153581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_78
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 488
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7684e55148d8803d0800000000000000
+      internalID: -3240184333459371929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_79
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1273
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600388718cc40d870800000000000000
+      internalID: 8705542501979140102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_80
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 454
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d41be5f089945d0800000000000000
+      internalID: -3077761678550414035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_81
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 492
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76da232c9132aadb0800000000000000
+      internalID: -4779969460961104537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_82
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 1075
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9eef3faeedca580800000000000000
+      internalID: -8814425269973620297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_83
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1272
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85369a7c481cba650800000000000000
+      internalID: 6245298084308935512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_84
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1263
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9321c7a511556ada0800000000000000
+      internalID: -5933961925993164231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_85
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 1257
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c33d29d3d742280800000000000000
+      internalID: -9068986046207542176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_86
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1248
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490339db254e76ad0800000000000000
+      internalID: -2708945606821072748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_87
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 417
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c20bd3f00176770800000000000000
+      internalID: 8603863270760131639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_88
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 1251
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a625712bc8435b10800000000000000
+      internalID: 1968997499367925413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_89
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 1232
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e3ae1363eb79340800000000000000
+      internalID: 4870570661999427176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_90
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 1149
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b03939121c4b1740800000000000000
+      internalID: 5123772641680371897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_91
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1235
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a7d8ebad5178780800000000000000
+      internalID: -8680945727489344992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_92
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1216
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb295c44cd3b56f20800000000000000
+      internalID: 3415333651058365116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_93
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1147
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893fac9936c13c300800000000000000
+      internalID: 271091616679916440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_94
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1152
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d864c48a50069e0800000000000000
+      internalID: -1630296844715782856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_95
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1210
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22862cdadcc522c10800000000000000
+      internalID: 2027284820723394594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_96
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1202
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07755efdceaf754e0800000000000000
+      internalID: -1992848414812579984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_97
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1156
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69cc87baf02c43a0800000000000000
+      internalID: -6679927886103918226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_98
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1193
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a717dd933b052eb0800000000000000
+      internalID: -4745374316045592663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_99
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1099
+        width: 131
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2890fd232ed2d80800000000000000
+      internalID: -8273708232291548435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_100
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 1141
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af41ec3b5cd5a9620800000000000000
+      internalID: 2781638823561270522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_101
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 1056
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13fda132ef6691f0800000000000000
+      internalID: -1038519646775545057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_102
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 1039
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a150740fc5b73f50800000000000000
+      internalID: 6861152458059567529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_103
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 1033
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc511d1894694510800000000000000
+      internalID: 1533867752581848287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_104
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 1014
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51f73aa45d464eb0800000000000000
+      internalID: -4736012932105113252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_105
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 995
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acea88af2ba14caf0800000000000000
+      internalID: -377147112782516534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_106
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 1023
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c739fb05a49cd2a0800000000000000
+      internalID: -6711325908097484858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_107
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 758
+        width: 33
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc23ff8f5c7d62f50800000000000000
+      internalID: 6856404728004162251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_108
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 991
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfe6b3e752e78120800000000000000
+      internalID: 2416148592218009542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_109
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 984
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0a8473fddb85e80800000000000000
+      internalID: -8189587155970383681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_110
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 974
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d155dcd427e2e70800000000000000
+      internalID: 9092330376190565731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_111
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 956
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0e43136f34a3f40800000000000000
+      internalID: 5708950202312089761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_112
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 932
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ceca8e3d88703b0800000000000000
+      internalID: -5546313972360352644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_113
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 919
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17dcba32f989c8fa0800000000000000
+      internalID: -5797090811066987151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_114
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 980
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22baa5979fed5aa80800000000000000
+      internalID: -8456107562254030046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_115
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 915
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b066be86424c4350800000000000000
+      internalID: 6002245274187489465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_116
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 901
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4dd4121c7e54cd0800000000000000
+      internalID: -2574396795298917208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_117
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 882
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc465ddb9e35d5590800000000000000
+      internalID: -7683893125846833969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_118
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 956
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7770f4455b7cc34b0800000000000000
+      internalID: -5459269066662410377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_119
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 943
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd97ebe8f74789790800000000000000
+      internalID: -7523135086317897253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_120
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 756
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a1b6feb2e810730800000000000000
+      internalID: 3963605466414258778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_121
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 950
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7643f803232610800800000000000000
+      internalID: 576850194982712423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_122
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 896
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f14bf359ac6f6790800000000000000
+      internalID: -7534684177053302287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_123
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 888
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7444a76d9d456efd0800000000000000
+      internalID: -2313068064025197497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_124
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 1209
+        width: 92
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26856015725f5e0f0800000000000000
+      internalID: -1088194185728206750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_125
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 458
+        width: 187
+        height: 823
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c7f75e38d0d0710800000000000000
+      internalID: 1660998697711795264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_126
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 1274
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9058bbef9466eb050800000000000000
+      internalID: 5818200236601607433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_127
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 1280
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb0de6a974ca27d0800000000000000
+      internalID: -2942323379762558013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_128
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 349
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9faf184b2b1fcf610800000000000000
+      internalID: 1656464512800389881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_129
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 331
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046359f9db0a955b0800000000000000
+      internalID: -5379091543630727616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_130
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 267
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2387a4e84f32ffbb0800000000000000
+      internalID: -4900158336289572814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_131
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 314
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc18b27aba41eb60800000000000000
+      internalID: 7773576596467227895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_132
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 310
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9608f37922ad9b0800000000000000
+      internalID: -5054689598769174041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_133
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 302
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83027ba77774d4ae0800000000000000
+      internalID: -1563514917142192072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_134
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 290
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3947167850a2850800000000000000
+      internalID: 6352896303373259719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_135
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 279
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c10211e6d92536c0800000000000000
+      internalID: -4164376277558361664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_136
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 287
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b593712018c8340800000000000000
+      internalID: 4867407143260216153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_137
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 284
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b66912e33701c4f0800000000000000
+      internalID: -810358538531936589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_138
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 288
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d82e1f9970f6f6f0800000000000000
+      internalID: -651068690957195048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_139
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 295
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d867879aab4c626e0800000000000000
+      internalID: -1862585089884916083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_140
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 293
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c17b316a5d6b1a00800000000000000
+      internalID: 728295999696236997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_141
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 291
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ba3305156ea39c0800000000000000
+      internalID: -3946588886524515555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_142
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 292
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654567adc010a7090800000000000000
+      internalID: -8036109430372805546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_143
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 283
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13395e1fefb1cbf20800000000000000
+      internalID: 3439654997198213937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_144
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 272
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c3f175b9705b5a0800000000000000
+      internalID: -6506285722903823320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_145
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 280
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c8f6e7d2eb22c00800000000000000
+      internalID: 874470380267342896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_146
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 282
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b9dc00e2b9c1a50800000000000000
+      internalID: 6493235384645688111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_147
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 283
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69da8f7343c0f7480800000000000000
+      internalID: -8899380920243933802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_148
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 271
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a87c72a78e537a60800000000000000
+      internalID: 7670578526981748897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_149
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 263
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92e59c7eef53b260800000000000000
+      internalID: 7112133714445197983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_150
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 259
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1717e33be74a2eb0800000000000000
+      internalID: -4743900181967726818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_151
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 259
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5dfbcfb4e2cb51a0800000000000000
+      internalID: -6819642922996335268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_152
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 260
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac910ac4a3596c70800000000000000
+      internalID: 8964788500486528166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_153
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 237
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8aade7171e47df0800000000000000
+      internalID: -183273807239534402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_154
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 226
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69cd576817254e10800000000000000
+      internalID: 2181192580297771371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_155
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 219
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea32dbb40b907baa0800000000000000
+      internalID: -6145432513734171730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_156
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 210
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484cb3112df68f2b0800000000000000
+      internalID: -5550563592711191420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_157
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 203
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d46feea57d72960800000000000000
+      internalID: 7577261683630296391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_158
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 193
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c71486ac789c610800000000000000
+      internalID: 1641992842555522074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_159
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 199
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666b358f21bf41610800000000000000
+      internalID: 1591172627262846566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_160
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 194
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36777685ead8be180800000000000000
+      internalID: -9085012043342842013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_161
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 184
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d1fb1c1df85a800800000000000000
+      internalID: 623062254522146064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skybg-sun_162
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 179
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95f096a74294f530800000000000000
+      internalID: 3887893214762431902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      skybg-sun_0: 6001270871195636072
+      skybg-sun_1: 4029342566965698233
+      skybg-sun_10: 9135938932837755864
+      skybg-sun_100: 2781638823561270522
+      skybg-sun_101: -1038519646775545057
+      skybg-sun_102: 6861152458059567529
+      skybg-sun_103: 1533867752581848287
+      skybg-sun_104: -4736012932105113252
+      skybg-sun_105: -377147112782516534
+      skybg-sun_106: -6711325908097484858
+      skybg-sun_107: 6856404728004162251
+      skybg-sun_108: 2416148592218009542
+      skybg-sun_109: -8189587155970383681
+      skybg-sun_11: 3320860344777020652
+      skybg-sun_110: 9092330376190565731
+      skybg-sun_111: 5708950202312089761
+      skybg-sun_112: -5546313972360352644
+      skybg-sun_113: -5797090811066987151
+      skybg-sun_114: -8456107562254030046
+      skybg-sun_115: 6002245274187489465
+      skybg-sun_116: -2574396795298917208
+      skybg-sun_117: -7683893125846833969
+      skybg-sun_118: -5459269066662410377
+      skybg-sun_119: -7523135086317897253
+      skybg-sun_12: -3088596363065895801
+      skybg-sun_120: 3963605466414258778
+      skybg-sun_121: 576850194982712423
+      skybg-sun_122: -7534684177053302287
+      skybg-sun_123: -2313068064025197497
+      skybg-sun_124: -1088194185728206750
+      skybg-sun_125: 1660998697711795264
+      skybg-sun_126: 5818200236601607433
+      skybg-sun_127: -2942323379762558013
+      skybg-sun_128: 1656464512800389881
+      skybg-sun_129: -5379091543630727616
+      skybg-sun_13: -2858320089439229628
+      skybg-sun_130: -4900158336289572814
+      skybg-sun_131: 7773576596467227895
+      skybg-sun_132: -5054689598769174041
+      skybg-sun_133: -1563514917142192072
+      skybg-sun_134: 6352896303373259719
+      skybg-sun_135: -4164376277558361664
+      skybg-sun_136: 4867407143260216153
+      skybg-sun_137: -810358538531936589
+      skybg-sun_138: -651068690957195048
+      skybg-sun_139: -1862585089884916083
+      skybg-sun_14: -7769225099425063256
+      skybg-sun_140: 728295999696236997
+      skybg-sun_141: -3946588886524515555
+      skybg-sun_142: -8036109430372805546
+      skybg-sun_143: 3439654997198213937
+      skybg-sun_144: -6506285722903823320
+      skybg-sun_145: 874470380267342896
+      skybg-sun_146: 6493235384645688111
+      skybg-sun_147: -8899380920243933802
+      skybg-sun_148: 7670578526981748897
+      skybg-sun_149: 7112133714445197983
+      skybg-sun_15: 8084323945126956604
+      skybg-sun_150: -4743900181967726818
+      skybg-sun_151: -6819642922996335268
+      skybg-sun_152: 8964788500486528166
+      skybg-sun_153: -183273807239534402
+      skybg-sun_154: 2181192580297771371
+      skybg-sun_155: -6145432513734171730
+      skybg-sun_156: -5550563592711191420
+      skybg-sun_157: 7577261683630296391
+      skybg-sun_158: 1641992842555522074
+      skybg-sun_159: 1591172627262846566
+      skybg-sun_16: 4177671332303722873
+      skybg-sun_160: -9085012043342842013
+      skybg-sun_161: 623062254522146064
+      skybg-sun_162: 3887893214762431902
+      skybg-sun_17: 3051346661834729332
+      skybg-sun_18: 7745106117307278927
+      skybg-sun_19: 740443724283924525
+      skybg-sun_2: 3108863563463912939
+      skybg-sun_20: -5214708381838326774
+      skybg-sun_21: -3289588794455040554
+      skybg-sun_22: 1463942407581135617
+      skybg-sun_23: 3727060883321049052
+      skybg-sun_24: -2068743937315946307
+      skybg-sun_25: -2635462276125286718
+      skybg-sun_26: 4101265534791981388
+      skybg-sun_27: 8488465177896095563
+      skybg-sun_28: 4952946881039821913
+      skybg-sun_29: -8894604989563140878
+      skybg-sun_3: -233957010405135230
+      skybg-sun_30: -4614888997204595938
+      skybg-sun_31: -7556835463378766231
+      skybg-sun_32: -5225891111519367647
+      skybg-sun_33: 5607348308786361861
+      skybg-sun_34: 3721005316263486779
+      skybg-sun_35: -5087996830784805245
+      skybg-sun_36: -4704883387642336861
+      skybg-sun_37: 8526192188921087187
+      skybg-sun_38: -4854159202293982578
+      skybg-sun_39: -5458252984714492017
+      skybg-sun_4: 4056162654136961168
+      skybg-sun_40: -7362667298206437073
+      skybg-sun_41: -3308922214011714989
+      skybg-sun_42: 3038145310780326302
+      skybg-sun_43: -2248366971482392011
+      skybg-sun_44: 5662656923821653370
+      skybg-sun_45: -5758059396379715878
+      skybg-sun_46: 1385255470911383273
+      skybg-sun_47: 3701848847410117192
+      skybg-sun_48: 5877854107639050550
+      skybg-sun_49: -5253685446717495442
+      skybg-sun_5: -4688274546056470713
+      skybg-sun_50: 3427839933212269208
+      skybg-sun_51: -4291208914196161431
+      skybg-sun_52: -985089055213499395
+      skybg-sun_53: 6771496116653088586
+      skybg-sun_54: 5619958342340891653
+      skybg-sun_55: -7911131802851437692
+      skybg-sun_56: 7265791309941346788
+      skybg-sun_57: -4160866262606268091
+      skybg-sun_58: -2896969655379520710
+      skybg-sun_59: -4333625052819944143
+      skybg-sun_6: 10854030540470394
+      skybg-sun_60: -7970940348358532942
+      skybg-sun_61: 7604471465277108268
+      skybg-sun_62: -2089711776582971893
+      skybg-sun_63: -6486724341011125989
+      skybg-sun_64: 8666843079440446004
+      skybg-sun_65: 5442820902184463630
+      skybg-sun_66: -7869094501903726278
+      skybg-sun_67: 7037695250374938773
+      skybg-sun_68: 6887273643000976491
+      skybg-sun_69: 2242104260198814671
+      skybg-sun_7: -7117517396480616529
+      skybg-sun_70: 3810561044228030785
+      skybg-sun_71: -6314789270409401725
+      skybg-sun_72: 8365354225968431518
+      skybg-sun_73: -9004926958870204682
+      skybg-sun_74: -336857050278976491
+      skybg-sun_75: 8615171037107086454
+      skybg-sun_76: 3899310198357860302
+      skybg-sun_77: -7263496826004153581
+      skybg-sun_78: -3240184333459371929
+      skybg-sun_79: 8705542501979140102
+      skybg-sun_8: 7958180159155881747
+      skybg-sun_80: -3077761678550414035
+      skybg-sun_81: -4779969460961104537
+      skybg-sun_82: -8814425269973620297
+      skybg-sun_83: 6245298084308935512
+      skybg-sun_84: -5933961925993164231
+      skybg-sun_85: -9068986046207542176
+      skybg-sun_86: -2708945606821072748
+      skybg-sun_87: 8603863270760131639
+      skybg-sun_88: 1968997499367925413
+      skybg-sun_89: 4870570661999427176
+      skybg-sun_9: -8958842572183794757
+      skybg-sun_90: 5123772641680371897
+      skybg-sun_91: -8680945727489344992
+      skybg-sun_92: 3415333651058365116
+      skybg-sun_93: 271091616679916440
+      skybg-sun_94: -1630296844715782856
+      skybg-sun_95: 2027284820723394594
+      skybg-sun_96: -1992848414812579984
+      skybg-sun_97: -6679927886103918226
+      skybg-sun_98: -4745374316045592663
+      skybg-sun_99: -8273708232291548435
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
