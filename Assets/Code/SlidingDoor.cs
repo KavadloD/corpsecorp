@@ -1,0 +1,38 @@
+using UnityEngine;
+
+[RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
+public class SlidingDoor : PoweredDevice
+{
+    public Vector2 openOffset = new Vector2(0f, 3f);
+    public float speed = 4f;
+
+    Rigidbody2D rb;
+    Vector2 closedPos;
+
+    void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        rb.bodyType = RigidbodyType2D.Kinematic;
+        rb.interpolation = RigidbodyInterpolation2D.Interpolate;
+        closedPos = transform.position;
+    }
+
+    void FixedUpdate()
+    {
+        Vector2 target = IsOn ? closedPos + openOffset : closedPos;
+        rb.MovePosition(Vector2.MoveTowards(rb.position, target, speed * Time.fixedDeltaTime));
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        var col = GetComponent<Collider2D>();
+        if (!col) return;
+
+        Vector3 start = Application.isPlaying ? (Vector3)closedPos : transform.position;
+        Vector3 center = col.bounds.center - transform.position + start;
+
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawWireCube(center + (Vector3)openOffset, col.bounds.size);
+        Gizmos.DrawLine(center, center + (Vector3)openOffset);
+    }
+}

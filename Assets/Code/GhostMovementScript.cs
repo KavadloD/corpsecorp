@@ -14,6 +14,7 @@ public class GhostMovementScript : MonoBehaviour
     public float flyDrag = 12f;
     SpriteRenderer spriteRenderer;
     Animator animator;
+    public float impaleEjectHeight = 1.5f;
 
     void Awake()
     {
@@ -97,7 +98,10 @@ public class GhostMovementScript : MonoBehaviour
 
     void Leave()
     {
-        transform.position = body.transform.position;
+        Vector3 pos = body.transform.position;
+        if (body.Impaled) pos += Vector3.up * impaleEjectHeight;
+        transform.position = pos;
+
         nearby = body.Impaled ? null : body;
         body.SetPossessed(false);
         body = null;

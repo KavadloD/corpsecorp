@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
@@ -10,6 +11,7 @@ public class Pushable : MonoBehaviour
     Collider2D col;
     float unlockTimer;
     float carryTime = -1f;
+    float releaseTime = -1f;
     bool wasPushed;
 
     bool IsCarried => Time.fixedTime - carryTime <= 0.05f;
@@ -48,6 +50,7 @@ public class Pushable : MonoBehaviour
 
     void Carry(float vx)
     {
+        if (carryTime == Time.fixedTime) return;
         carryTime = Time.fixedTime;
         rb.constraints = Free;
         rb.linearVelocity = new Vector2(vx, rb.linearVelocity.y);
@@ -56,6 +59,8 @@ public class Pushable : MonoBehaviour
 
     void Release()
     {
+        if (releaseTime == Time.fixedTime) return;
+        releaseTime = Time.fixedTime;
         carryTime = -1f;
         rb.constraints = Locked;
         rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
@@ -84,15 +89,20 @@ public class Pushable : MonoBehaviour
         }
     }
 
-    Collider2D[] FindRiders()
+    List<Collider2D> FindRiders()
     {
+        var result = new List<Collider2D>();
         Bounds b = col.bounds;
         Vector2 center = new Vector2(b.center.x, b.max.y + 0.05f);
         Vector2 size = new Vector2(b.size.x * 0.9f, 0.1f);
-        var all = Physics2D.OverlapBoxAll(center, size, 0f);
-        var result = new System.Collections.Generic.List<Collider2D>();
-        foreach (var h in all)
-            if (h != col) result.Add(h);
-        return result.ToArray();
+
+        foreach (var h in Physics2D.OverlapBoxAll(center, size, 0f))
+        {
+            if (h == col || h.isTrigger) continue;
+            if (h.attachedRigidbody == rb) continue;
+            if (h.bounds.min.y < b.max.y - 0.15f) continue;
+            result.Add(h);
+        }
+        return result;
     }
 }
