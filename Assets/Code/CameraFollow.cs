@@ -9,10 +9,23 @@ public class CameraFollow : MonoBehaviour
 
     Vector3 velocity;
 
+    void Start()
+    {
+        if (!target)
+        {
+            var g = FindFirstObjectByType<GhostMovementScript>();
+            if (g) target = g.transform;
+        }
+
+        if (target)
+            transform.position = new Vector3(target.position.x + offset.x, target.position.y + offset.y, transform.position.z);
+    }
+
     void LateUpdate()
     {
         if (!target) return;
         Vector3 goal = new Vector3(target.position.x + offset.x, target.position.y + offset.y, transform.position.z);
         transform.position = Vector3.SmoothDamp(transform.position, goal, ref velocity, smoothTime);
     }
+
 }

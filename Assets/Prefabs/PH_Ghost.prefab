@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2172124487681660808}
   - component: {fileID: 5468647887353421229}
   - component: {fileID: 2650054020689355386}
+  - component: {fileID: 452701789636949921}
   m_Layer: 6
   m_Name: PH_Ghost
   m_TagString: Untagged
@@ -124,6 +125,7 @@ MonoBehaviour:
   speed: 10
   flyAcceleration: 30
   flyDrag: 20
+  impaleEjectHeight: 1.5
 --- !u!95 &2650054020689355386
 Animator:
   serializedVersion: 7
@@ -146,6 +148,25 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &452701789636949921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3328160300797661902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2ced257f9b3094397f781b8dabc216, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GhostAfterimage
+  source: {fileID: 0}
+  spawnInterval: 0.05
+  lifetime: 0.35
+  startAlpha: 0.1
+  endScale: 0.85
+  minSpeed: 1.5
+  tint: {r: 0.7, g: 0.9, b: 1, a: 1}
 --- !u!1 &4299022532857852576
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,8 +243,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1779919399
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cd48a5eb237e95d45928e9200ead3e42, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
