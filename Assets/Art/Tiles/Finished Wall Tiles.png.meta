@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 1582f6490d618554981afcaa82a7fd26
+guid: 4ff5e04649e8ffc49827c963cff446a0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5484814535775750463
-    second: Ground Tiles_0
-  - first:
-      213: 880937586795215994
-    second: Ground Tiles_1
-  - first:
-      213: 8221904254788300887
-    second: Ground Tiles_2
-  - first:
-      213: -3581307003287623767
-    second: Ground Tiles_3
+      213: -7480805662310074648
+    second: Finished Wall Tiles_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -57,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -84,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ground Tiles_0
+      name: Finished Wall Tiles_0
       rect:
         serializedVersion: 2
-        x: 37
-        y: 16
-        width: 155
-        height: 160
+        x: 0
+        y: 0
+        width: 64
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,74 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3900dfa2c9fd1c40800000000000000
-      internalID: 5484814535775750463
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ground Tiles_1
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 21
-        width: 145
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a7cf73a5118b93c00800000000000000
-      internalID: 880937586795215994
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ground Tiles_2
-      rect:
-        serializedVersion: 2
-        x: 409
-        y: 21
-        width: 145
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 750fde3bb521a1270800000000000000
-      internalID: 8221904254788300887
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ground Tiles_3
-      rect:
-        serializedVersion: 2
-        x: 587
-        y: 21
-        width: 145
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9a72c6d4144ac4ec0800000000000000
-      internalID: -3581307003287623767
+      spriteID: 8e6f64892e6de2890800000000000000
+      internalID: -7480805662310074648
       vertices: []
       indices: 
       edges: []
@@ -223,10 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ground Tiles_0: 5484814535775750463
-      Ground Tiles_1: 880937586795215994
-      Ground Tiles_2: 8221904254788300887
-      Ground Tiles_3: -3581307003287623767
+      Finished Wall Tiles_0: -7480805662310074648
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
