@@ -32907,7 +32907,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6725356987654143004, guid: ee424dfaac1af1a4287f5a2a5620c110, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.5
+      value: -5.2
       objectReference: {fileID: 0}
     - target: {fileID: 6725356987654143004, guid: ee424dfaac1af1a4287f5a2a5620c110, type: 3}
       propertyPath: m_LocalPosition.z
@@ -33276,6 +33276,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6036128975060359484, guid: 542ae0848f0964f49be9ede47b4ad331, type: 3}
+      propertyPath: impaledHeight
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6036128975060359484, guid: 542ae0848f0964f49be9ede47b4ad331, type: 3}
+      propertyPath: impaledColliderOffset.y
+      value: -0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 6060872563810684953, guid: 542ae0848f0964f49be9ede47b4ad331, type: 3}
       propertyPath: m_Name
       value: PH_Corpse (1)
@@ -33286,7 +33294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8928072377584967523, guid: 542ae0848f0964f49be9ede47b4ad331, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.5
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 8928072377584967523, guid: 542ae0848f0964f49be9ede47b4ad331, type: 3}
       propertyPath: m_LocalPosition.z
@@ -33343,7 +33351,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6725356987654143004, guid: ee424dfaac1af1a4287f5a2a5620c110, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.5
+      value: -5.2
       objectReference: {fileID: 0}
     - target: {fileID: 6725356987654143004, guid: ee424dfaac1af1a4287f5a2a5620c110, type: 3}
       propertyPath: m_LocalPosition.z

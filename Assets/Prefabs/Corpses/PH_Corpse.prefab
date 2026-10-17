@@ -27,7 +27,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8928072377584967523}
@@ -77,14 +77,14 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1146943555
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 593799b42f84e694398565deb27cdac1, type: 3}
-  m_Color: {r: 1, g: 0.58176094, b: 0.58176094, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 5be5a7a2b0bced840ac3120d9727bbb1, type: 3}
+  m_Color: {r: 0.8050314, g: 0.8050314, b: 0.8050314, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.2, y: 0.81}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -211,6 +211,7 @@ MonoBehaviour:
     m_Bits: 256
   normalVisual: {fileID: 7949890274300085742}
   impaledVisual: {fileID: 780011924545926836}
+  impaledHeight: 0.5
   dashSpeed: 14
   dashDuration: 0.18
   dashCooldown: 0.6
@@ -312,7 +313,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1146943555
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53085af17cae54040a46cb9b14b0f8e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

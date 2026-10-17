@@ -20,6 +20,10 @@ public class PossessionObject : MonoBehaviour
 
     public GameObject normalVisual;
     public GameObject impaledVisual;
+    public float impaledHeight = 1f;
+    public float impaledWidth = 1f;
+    public Vector2 impaledColliderSize = new Vector2(1f, 0.45f);
+    public Vector2 impaledColliderOffset = new Vector2(0f, -0.7f);
 
     void Awake()
     {
@@ -88,7 +92,7 @@ public class PossessionObject : MonoBehaviour
         if (carryTime >= 0f && Time.fixedTime - carryTime > 0.1f) StopCarry();
     }
 
-    public void Impale()
+    public void Impale(float restY = float.NaN)
     {
         if (Impaled) return;
         Impaled = true;
@@ -102,9 +106,18 @@ public class PossessionObject : MonoBehaviour
         float localBottom = (b.min.y - transform.position.y) / s.y;
         float localCenterX = (b.center.x - transform.position.x) / s.x;
 
-        RaycastHit2D hit = Physics2D.Raycast(
-            new Vector2(b.center.x, b.min.y + 0.1f), Vector2.down, 1.5f, groundMask);
-        if (hit) Rb.position += Vector2.up * (hit.point.y - b.min.y);
+        float dy = 0f;
+        if (!float.IsNaN(restY))
+        {
+            dy = restY - b.min.y;
+        }
+        else
+        {
+            RaycastHit2D hit = Physics2D.Raycast(
+                new Vector2(b.center.x, b.min.y + 0.1f), Vector2.down, 1.5f, groundMask);
+            if (hit) dy = hit.point.y - b.min.y;
+        }
+        Rb.position += Vector2.up * dy;
 
         Rb.linearVelocity = Vector2.zero;
         Rb.constraints = RigidbodyConstraints2D.FreezeAll;
@@ -113,8 +126,8 @@ public class PossessionObject : MonoBehaviour
         // 1 block tall solid box, bottom edge where the old collider's bottom was
         var box = gameObject.AddComponent<BoxCollider2D>();
         box.sharedMaterial = col.sharedMaterial;
-        box.size = new Vector2(1f / s.x, 1f / s.y);
-        box.offset = new Vector2(localCenterX, localBottom + 0.5f / s.y);
+        box.size = impaledColliderSize;
+        box.offset = impaledColliderOffset;
         col.enabled = false;
 
         if (normalVisual) normalVisual.SetActive(false);
