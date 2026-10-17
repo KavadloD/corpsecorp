@@ -55,12 +55,6 @@ public class GhostMovementScript : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space)) body.DoAction();
             body.ActionHeld = Input.GetKey(KeyCode.Space);
         }
-
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-            SceneManager.LoadScene(currentSceneIndex);
-        }
     }
 
 
@@ -76,6 +70,7 @@ public class GhostMovementScript : MonoBehaviour
             Vector2 target = movement.normalized * speed;
             float rate = movement.sqrMagnitude > 0 ? flyAcceleration : flyDrag;
             rb.linearVelocity = Vector2.MoveTowards(rb.linearVelocity, target, rate * Time.fixedDeltaTime);
+
             var limits = GhostBounds.Current;
             if (limits)
             {
@@ -129,5 +124,11 @@ public class GhostMovementScript : MonoBehaviour
     {
         var p = other.GetComponentInParent<PossessionObject>();
         if (p && p == nearby) nearby = null;
+    }
+
+    public void ResetLevel()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex);
     }
 }
