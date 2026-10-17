@@ -15,6 +15,7 @@ public class GhostMovementScript : MonoBehaviour
     SpriteRenderer spriteRenderer;
     Animator animator;
     public float impaleEjectHeight = 1.5f;
+    Collider2D ghostCol;
 
     void Awake()
     {
@@ -23,7 +24,8 @@ public class GhostMovementScript : MonoBehaviour
         rb.simulated = true;
         rb.gravityScale = 0;
         rb.freezeRotation = true;
-        GetComponent<Collider2D>().isTrigger = true;
+        ghostCol = GetComponent<Collider2D>();
+        ghostCol.isTrigger = true;
 
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         animator = GetComponentInChildren<Animator>();
@@ -74,6 +76,13 @@ public class GhostMovementScript : MonoBehaviour
             Vector2 target = movement.normalized * speed;
             float rate = movement.sqrMagnitude > 0 ? flyAcceleration : flyDrag;
             rb.linearVelocity = Vector2.MoveTowards(rb.linearVelocity, target, rate * Time.fixedDeltaTime);
+            var limits = GhostBounds.Current;
+            if (limits)
+            {
+                Vector2 next = rb.position + rb.linearVelocity * Time.fixedDeltaTime;
+                Vector2 allowed = limits.Clamp(next, ghostCol.bounds.extents);
+                rb.linearVelocity = (allowed - rb.position) / Time.fixedDeltaTime;
+            }
         }
 
     }
