@@ -95,7 +95,7 @@ MonoBehaviour:
   devices: []
   visual: {fileID: 4181085324821178832}
   offColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  onColor: {r: 1, g: 0.9, b: 0.3, a: 1}
+  onColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &2295651808442919322
 GameObject:
   m_ObjectHideFlags: 0
@@ -172,8 +172,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 961601381
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d76bd57ef4ee80c4d8446791691e659b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
