@@ -112,6 +112,7 @@ public class Fan : PoweredDevice
         {
             var rb = h.attachedRigidbody;
             if (!rb || rb == selfRb || rb.bodyType != RigidbodyType2D.Dynamic) continue;
+            if (rb.GetComponent<Fan>()) continue;
             if (!h.GetComponentInParent<PossessionObject>() && !h.GetComponent<Pushable>()) continue;
             if (rb.linearVelocity.y < maxRiseSpeed) rb.AddForce(Vector2.up * lift);
         }
