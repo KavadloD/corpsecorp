@@ -71016,6 +71016,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4636720961401815373, guid: 4767796ee96f3d34aaa29e960f050623, type: 3}
+      propertyPath: frameRate
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636720961401815373, guid: 4767796ee96f3d34aaa29e960f050623, type: 3}
       propertyPath: onColor.b
       value: 0.8459119
       objectReference: {fileID: 0}

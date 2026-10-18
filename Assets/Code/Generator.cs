@@ -6,14 +6,28 @@ public class Generator : MonoBehaviour
     public PoweredDevice[] devices;
     public SpriteRenderer visual;
     public Color offColor = new Color(0.5f, 0.5f, 0.5f);
-    public Color onColor = new Color(1f, 0.9f, 0.3f);
+    public Color onColor = Color.white;
+    public Sprite[] onFrames;
+    public float frameRate = 6f;
+
+    Sprite offSprite;
+    float animTimer;
 
     public bool IsOn { get; private set; }
 
     void Awake()
     {
         GetComponent<Collider2D>().isTrigger = true;
+        if (visual) offSprite = visual.sprite;
         Refresh();
+    }
+
+    void Update()
+    {
+        if (!IsOn || !visual || onFrames == null || onFrames.Length == 0) return;
+
+        animTimer += Time.deltaTime * frameRate;
+        visual.sprite = onFrames[(int)animTimer % onFrames.Length];
     }
 
     void OnTriggerStay2D(Collider2D other)
@@ -31,6 +45,8 @@ public class Generator : MonoBehaviour
 
     void Refresh()
     {
-        if (visual) visual.color = IsOn ? onColor : offColor;
+        if (!visual) return;
+        visual.color = IsOn ? onColor : offColor;
+        if (!IsOn && offSprite) visual.sprite = offSprite;
     }
 }
