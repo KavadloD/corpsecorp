@@ -101,7 +101,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 4d568f663e1ac72469104bc2d1e2c930, type: 3}
   - {fileID: 21300000, guid: ab6fa2eeefb59e643bea9f28927289fa, type: 3}
   - {fileID: 21300000, guid: b33b55b72aec7ce4cb770461bdb3bdfd, type: 3}
-  frameRate: 6
+  frameRate: 16
 --- !u!1 &2295651808442919322
 GameObject:
   m_ObjectHideFlags: 0
