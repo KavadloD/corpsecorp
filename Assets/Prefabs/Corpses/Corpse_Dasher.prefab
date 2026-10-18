@@ -205,7 +205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PossessionObject
   gravity: 3
-  moveSpeed: 4
+  moveSpeed: 5
   jumpHeight: 1.25
   groundMask:
     serializedVersion: 2
@@ -262,8 +262,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 87822036b9c7255458bff1113fe444a0, type: 3}
   jumpSprite: {fileID: 21300000, guid: e93433b54f6af60458c86c4f383bfb9c, type: 3}
   actionSprite: {fileID: 21300000, guid: e13511c640801df44b0d96ab472a0ee0, type: 3}
+  actionFrames: []
   idleFps: 1.5
   walkFps: 8
+  actionFps: 5
   artFacesRight: 1
 --- !u!1 &7949890274300085742
 GameObject:
