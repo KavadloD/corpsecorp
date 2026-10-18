@@ -18,6 +18,7 @@ public class ElevatorDoor : PoweredDevice
 
     public bool IsOpen => IsOn;
     bool FullyOpen => openAmount >= 0.99f;
+    bool wasOpen;
 
     void Awake()
     {
@@ -34,10 +35,17 @@ public class ElevatorDoor : PoweredDevice
 
         openAmount = IsOpen ? 1f : 0f;
         Apply();
+        wasOpen = IsOpen;
     }
 
     void Update()
     {
+        if (IsOpen != wasOpen)
+        {
+            wasOpen = IsOpen;
+            if (IsOpen) AudioController.PlayAt("elevator_open", transform.position);
+        }
+
         float target = IsOpen ? 1f : 0f;
         openAmount = Mathf.MoveTowards(openAmount, target, Time.deltaTime / Mathf.Max(0.05f, openTime));
         Apply();

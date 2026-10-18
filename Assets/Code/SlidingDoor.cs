@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
 public class SlidingDoor : PoweredDevice
 {
-    public Vector2 openOffset = new Vector2(0f, 3f);
+    public Vector2 openOffset = new Vector2(0f, 2f);
     public float speed = 4f;
 
     [Header("Look")]
@@ -13,6 +13,7 @@ public class SlidingDoor : PoweredDevice
 
     Rigidbody2D rb;
     Vector2 closedPos;
+    bool wasOn;
 
     void Awake()
     {
@@ -20,10 +21,17 @@ public class SlidingDoor : PoweredDevice
         rb.bodyType = RigidbodyType2D.Kinematic;
         rb.interpolation = RigidbodyInterpolation2D.Interpolate;
         closedPos = transform.position;
+        wasOn = IsOn;
     }
 
     void Update()
     {
+        if (IsOn != wasOn)
+        {
+            wasOn = IsOn;
+            AudioController.PlayAt("door", transform.position);
+        }
+
         if (!visual) return;
         Sprite s = IsOn ? onSprite : offSprite;
         if (s) visual.sprite = s;

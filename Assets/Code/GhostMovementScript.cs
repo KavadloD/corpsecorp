@@ -110,6 +110,7 @@ public class GhostMovementScript : MonoBehaviour
 
     void Possess(PossessionObject target)
     {
+        AudioController.Play("possess");
         body = target;
         body.SetPossessed(true);
         nearby = null;
@@ -120,6 +121,7 @@ public class GhostMovementScript : MonoBehaviour
 
     void Leave()
     {
+        AudioController.Play("leave");
         Vector2 corpsePos = body.Rb.position;
         Vector2 pos = body.Impaled ? corpsePos + Vector2.up * impaleEjectHeight : corpsePos;
 

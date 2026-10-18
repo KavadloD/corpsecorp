@@ -12,12 +12,14 @@ public class Generator : MonoBehaviour
 
     Sprite offSprite;
     float animTimer;
+    LoopingSound hum;
 
     public bool IsOn { get; private set; }
 
     void Awake()
     {
         GetComponent<Collider2D>().isTrigger = true;
+        hum = GetComponent<LoopingSound>();
         if (visual) offSprite = visual.sprite;
         Refresh();
     }
@@ -38,6 +40,8 @@ public class Generator : MonoBehaviour
         if (!corpse || !corpse.IsPossessed) return;
 
         IsOn = true;
+        AudioController.PlayAt("generator_on", transform.position);
+
         foreach (var d in devices)
             if (d) d.SetPowered(true);
         Refresh();
@@ -45,6 +49,8 @@ public class Generator : MonoBehaviour
 
     void Refresh()
     {
+        if (hum) hum.Set(IsOn);
+
         if (!visual) return;
         visual.color = IsOn ? onColor : offColor;
         if (!IsOn && offSprite) visual.sprite = offSprite;

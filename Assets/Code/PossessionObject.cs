@@ -59,6 +59,7 @@ public class PossessionObject : MonoBehaviour
         if (!IsGrounded) return;
         float v = Mathf.Sqrt(2f * Physics2D.gravity.magnitude * Rb.gravityScale * height);
         Rb.linearVelocity = new Vector2(Rb.linearVelocity.x, v);
+        AudioController.PlayAt("jump", transform.position);
     }
 
     public void SetPossessed(bool possessed)
@@ -142,5 +143,6 @@ public class PossessionObject : MonoBehaviour
 
         if (normalVisual) normalVisual.SetActive(false);
         if (impaledVisual) impaledVisual.SetActive(true);
+        AudioController.PlayAt("impale", transform.position);
     }
 }

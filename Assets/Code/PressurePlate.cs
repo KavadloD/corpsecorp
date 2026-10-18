@@ -34,6 +34,7 @@ public class PressurePlate : MonoBehaviour
         if (now == pressed) return;
 
         pressed = now;
+        AudioController.PlayAt(pressed ? "plate_down" : "plate_up", transform.position);
         foreach (var d in devices)
             if (d) d.SetPowered(pressed);
         Refresh();

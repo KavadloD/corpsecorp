@@ -21,6 +21,7 @@ public class DashCorpse : PossessionObject
         cooldownTimer = dashCooldown;
         ControlLocked = true;
         CaptureTargets();
+        AudioController.PlayAt("dash", transform.position);
     }
 
     void CaptureTargets()

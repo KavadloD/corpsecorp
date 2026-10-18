@@ -258266,14 +258266,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1054286153210521297, guid: 3b023e7b488c58d43afc6dca00f014e6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1054286153210521297, guid: 3b023e7b488c58d43afc6dca00f014e6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3202382371380387914, guid: 3b023e7b488c58d43afc6dca00f014e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.5
@@ -258317,18 +258309,6 @@ PrefabInstance:
     - target: {fileID: 3328160300797661902, guid: 3b023e7b488c58d43afc6dca00f014e6, type: 3}
       propertyPath: m_Name
       value: Player_Ghost
-      objectReference: {fileID: 0}
-    - target: {fileID: 5468647887353421229, guid: 3b023e7b488c58d43afc6dca00f014e6, type: 3}
-      propertyPath: maxRange
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 8324082711898009352, guid: 3b023e7b488c58d43afc6dca00f014e6, type: 3}
-      propertyPath: sway
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8324082711898009352, guid: 3b023e7b488c58d43afc6dca00f014e6, type: 3}
-      propertyPath: strainedColor.a
-      value: 0.36862746
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -258617,6 +258597,91 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1140400326}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1243533878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1243533880}
+  - component: {fileID: 1243533879}
+  m_Layer: 0
+  m_Name: AudioController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1243533879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243533878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e9be54fc93c41148b5587cd66352dea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioController
+  corpseTheme: {fileID: 8300000, guid: 1756aaa80227c6045af904e4f01759b3, type: 3}
+  ghostTheme: {fileID: 8300000, guid: 6fa2d38eec85fb840b2f661ec2887205, type: 3}
+  musicVolume: 0.5
+  fadeTime: 0.25
+  sfxVolume: 1
+  effects:
+  - name: possess
+    clip: {fileID: 8300000, guid: ea644363c212ed342969fb7a2f004b06, type: 3}
+    volume: 0
+    minDistance: 0
+    maxDistance: 0
+  - name: leave
+    clip: {fileID: 8300000, guid: 4c0e7f09adc5ae04090ecb75b89b0e3e, type: 3}
+    volume: 0
+    minDistance: 0
+    maxDistance: 0
+  - name: impale
+    clip: {fileID: 8300000, guid: fe8771487ce6cf44a95477421127fa41, type: 3}
+    volume: 0
+    minDistance: 3
+    maxDistance: 16
+  - name: box_break
+    clip: {fileID: 8300000, guid: 0a601628ceec1c841a3b14f93174a9ce, type: 3}
+    volume: 0
+    minDistance: 3
+    maxDistance: 16
+  - name: generator_on
+    clip: {fileID: 8300000, guid: 631143dbed24c7a48966cc82a9d27acc, type: 3}
+    volume: 0
+    minDistance: 4
+    maxDistance: 20
+  - name: door
+    clip: {fileID: 8300000, guid: 77e73f01541b1b349901ad12c30dadef, type: 3}
+    volume: 0
+    minDistance: 3
+    maxDistance: 16
+  - name: elevator_open
+    clip: {fileID: 8300000, guid: f12187cfcd9d0314ba09738cde323a28, type: 3}
+    volume: 0
+    minDistance: 3
+    maxDistance: 18
+--- !u!4 &1243533880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243533878}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -260431,7 +260496,8 @@ PrefabInstance:
       propertyPath: orthographic size
       value: 7
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -260450,3 +260516,4 @@ SceneRoots:
   - {fileID: 55123680}
   - {fileID: 81260786}
   - {fileID: 1862617658}
+  - {fileID: 1243533880}

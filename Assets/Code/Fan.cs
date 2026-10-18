@@ -20,11 +20,13 @@ public class Fan : PoweredDevice
 
     Rigidbody2D selfRb;
     float animTimer;
+    LoopingSound loop;
 
     void Awake()
     {
         selfRb = GetComponent<Rigidbody2D>();
         if (liftZone) liftZone.isTrigger = true;
+        loop = GetComponent<LoopingSound>();
     }
 
     void Start()
@@ -82,6 +84,8 @@ public class Fan : PoweredDevice
 
     void Update()
     {
+        if (loop) loop.Set(IsOn);
+
         if (visual)
         {
             if (IsOn && onFrames != null && onFrames.Length > 0)

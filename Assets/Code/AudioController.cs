@@ -100,21 +100,39 @@ public class AudioController : MonoBehaviour
             ghostSource.time = corpseSource.time;
     }
 
-    public static void Play(string name)
+        public static void Play(string name)
     {
-        if (Instance != null) Instance.PlayEffect(name, null);
+        if (Instance == null)
+        {
+            Debug.LogWarning("AudioController: no instance for '" + name + "'");
+            return;
+        }
+        Instance.PlayEffect(name, null);
     }
 
     public static void PlayAt(string name, Vector3 position)
     {
-        if (Instance != null) Instance.PlayEffect(name, position);
+        if (Instance == null)
+        {
+            Debug.LogWarning("AudioController: no instance for '" + name + "'");
+            return;
+        }
+        Instance.PlayEffect(name, position);
     }
 
     void PlayEffect(string name, Vector3? position)
     {
         foreach (var e in effects)
         {
-            if (e == null || !e.clip || e.name != name) continue;
+            if (e == null || e.name != name) continue;
+
+            if (!e.clip)
+            {
+                Debug.LogWarning("AudioController: '" + name + "' has no clip assigned");
+                return;
+            }
+
+            Debug.Log("SFX " + name + " volume " + (e.volume * sfxVolume) + (position == null ? " flat" : " at " + position.Value));
 
             if (position == null)
             {
@@ -131,12 +149,14 @@ public class AudioController : MonoBehaviour
             s.spatialBlend = 1f;
             s.rolloffMode = AudioRolloffMode.Linear;
             s.minDistance = e.minDistance;
-            s.maxDistance = e.maxDistance;
+            s.maxDistance = Mathf.Max(e.maxDistance, e.minDistance + 1f);
             s.dopplerLevel = 0f;
             s.Play();
 
             Destroy(go, e.clip.length + 0.1f);
             return;
         }
+
+        Debug.LogWarning("AudioController: no sound named '" + name + "'");
     }
 }
