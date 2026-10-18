@@ -6,6 +6,11 @@ public class SlidingDoor : PoweredDevice
     public Vector2 openOffset = new Vector2(0f, 3f);
     public float speed = 4f;
 
+    [Header("Look")]
+    public SpriteRenderer visual;
+    public Sprite offSprite;
+    public Sprite onSprite;
+
     Rigidbody2D rb;
     Vector2 closedPos;
 
@@ -15,6 +20,13 @@ public class SlidingDoor : PoweredDevice
         rb.bodyType = RigidbodyType2D.Kinematic;
         rb.interpolation = RigidbodyInterpolation2D.Interpolate;
         closedPos = transform.position;
+    }
+
+    void Update()
+    {
+        if (!visual) return;
+        Sprite s = IsOn ? onSprite : offSprite;
+        if (s) visual.sprite = s;
     }
 
     void FixedUpdate()

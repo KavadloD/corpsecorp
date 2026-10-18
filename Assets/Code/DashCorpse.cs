@@ -11,6 +11,7 @@ public class DashCorpse : PossessionObject
     float cooldownTimer;
     int dashDir = 1;
     readonly HashSet<Breakable> targets = new HashSet<Breakable>();
+    public override bool IsActing => dashTimer > 0;
 
     public override void DoAction()
     {

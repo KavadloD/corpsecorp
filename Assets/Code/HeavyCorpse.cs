@@ -5,6 +5,7 @@ public class HeavyCorpse : PossessionObject
     public float pushSpeed = 1.5f;
 
     public override float CurrentSpeed => ActionHeld ? pushSpeed : moveSpeed;
+    public override bool IsActing => IsPossessed && ActionHeld && IsGrounded;
 
     void OnCollisionEnter2D(Collision2D c) { TryPush(c); }
     void OnCollisionStay2D(Collision2D c) { TryPush(c); }

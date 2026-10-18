@@ -27,7 +27,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 3, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3571612263246279435}
@@ -76,10 +76,10 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_SortingLayerID: 961601381
+  m_SortingLayer: 3
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 8080672511946873454, guid: 18aec55599ba85d4aae4a200690ad683, type: 3}
   m_Color: {r: 0.64390016, g: 1, b: 0.60691816, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -103,7 +103,7 @@ GameObject:
   - component: {fileID: 3697063049069610824}
   - component: {fileID: 6266548213567169400}
   m_Layer: 8
-  m_Name: PH_Door_vertical
+  m_Name: Door_vertical
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -196,7 +196,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 3}
+  m_Size: {x: 1, y: 2}
   m_EdgeRadius: 0
 --- !u!114 &6266548213567169400
 MonoBehaviour:
@@ -211,5 +211,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SlidingDoor
   requiresPower: 1
-  openOffset: {x: 0, y: 3}
+  openOffset: {x: 0, y: 2}
   speed: 4
+  visual: {fileID: 267796408742650606}
+  offSprite: {fileID: 8080672511946873454, guid: 18aec55599ba85d4aae4a200690ad683, type: 3}
+  onSprite: {fileID: -7014507349273928088, guid: 85d3a84e6e6d6e64aae8976c1b675e01, type: 3}

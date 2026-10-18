@@ -5018,7 +5018,7 @@ GameObject:
   - component: {fileID: 914873472835774758}
   - component: {fileID: 939936137375585498}
   m_Layer: 8
-  m_Name: PH_Fan
+  m_Name: Fan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
