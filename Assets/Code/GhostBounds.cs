@@ -36,4 +36,10 @@ public class GhostBounds : MonoBehaviour
         Gizmos.color = new Color(1f, 0.4f, 0.8f, 0.8f);
         Gizmos.DrawWireCube(center, size);
     }
+
+    public bool Contains(Vector2 p)
+    {
+        Bounds b = box.bounds;
+        return p.x >= b.min.x && p.x <= b.max.x && p.y >= b.min.y && p.y <= b.max.y;
+    }
 }

@@ -118,6 +118,12 @@ public class PossessionObject : MonoBehaviour
                 new Vector2(b.center.x, b.min.y + 0.1f), Vector2.down, 1.5f, groundMask);
             if (hit) dy = hit.point.y - b.min.y;
         }
+
+        if (Mathf.Abs(dy) > 1.5f)
+        {
+            // Debug.LogWarning("Impale snap of " + dy + " ignored on " + name + " (spike top " + restY + ", body bottom " + b.min.y + ")");
+            dy = 0f;
+        }
         Rb.position += Vector2.up * dy;
 
         Rb.linearVelocity = Vector2.zero;

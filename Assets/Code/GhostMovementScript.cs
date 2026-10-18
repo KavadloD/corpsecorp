@@ -5,17 +5,23 @@ using UnityEngine.SceneManagement;
 public class GhostMovementScript : MonoBehaviour
 {
     public float speed = 5f;
+    public float flyAcceleration = 30f;
+    public float flyDrag = 12f;
+    public float impaleEjectHeight = 1.5f;
+    public float maxRange = 6f;
 
     Rigidbody2D rb;
     PossessionObject body;
     PossessionObject nearby;
     Vector2 movement;
-    public float flyAcceleration = 30f;
-    public float flyDrag = 12f;
     SpriteRenderer spriteRenderer;
     Animator animator;
-    public float impaleEjectHeight = 1.5f;
     Collider2D ghostCol;
+    Vector2 anchor;
+
+    public Transform TetherTarget { get; private set; }
+    public bool IsPossessing => body != null;
+    public Vector2 Anchor => TetherTarget ? (Vector2)TetherTarget.position : anchor;
 
     void Awake()
     {
@@ -29,6 +35,11 @@ public class GhostMovementScript : MonoBehaviour
 
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         animator = GetComponentInChildren<Animator>();
+    }
+
+    void Start()
+    {
+        anchor = transform.position;
     }
 
     void Update()
@@ -57,7 +68,6 @@ public class GhostMovementScript : MonoBehaviour
         }
     }
 
-
     void FixedUpdate()
     {
         if (body)
@@ -71,15 +81,22 @@ public class GhostMovementScript : MonoBehaviour
             float rate = movement.sqrMagnitude > 0 ? flyAcceleration : flyDrag;
             rb.linearVelocity = Vector2.MoveTowards(rb.linearVelocity, target, rate * Time.fixedDeltaTime);
 
+            Vector2 reach = rb.position + rb.linearVelocity * Time.fixedDeltaTime;
+            Vector2 offset = reach - Anchor;
+            if (offset.magnitude > maxRange)
+            {
+                Vector2 limitedPos = Anchor + offset.normalized * maxRange;
+                rb.linearVelocity = Vector2.ClampMagnitude((limitedPos - rb.position) / Time.fixedDeltaTime, speed * 2f);
+            }
+
             var limits = GhostBounds.Current;
-            if (limits)
+            if (limits && limits.Contains(rb.position))
             {
                 Vector2 next = rb.position + rb.linearVelocity * Time.fixedDeltaTime;
                 Vector2 allowed = limits.Clamp(next, ghostCol.bounds.extents);
-                rb.linearVelocity = (allowed - rb.position) / Time.fixedDeltaTime;
+                rb.linearVelocity = Vector2.ClampMagnitude((allowed - rb.position) / Time.fixedDeltaTime, speed * 2f);
             }
         }
-
     }
 
     void LateUpdate()
@@ -102,15 +119,26 @@ public class GhostMovementScript : MonoBehaviour
 
     void Leave()
     {
-        Vector3 pos = body.transform.position;
-        if (body.Impaled) pos += Vector3.up * impaleEjectHeight;
+        Vector2 corpsePos = body.Rb.position;
+        Vector2 pos = body.Impaled ? corpsePos + Vector2.up * impaleEjectHeight : corpsePos;
+
+        var limits = GhostBounds.Current;
+        if (limits) pos = limits.Clamp(pos, Vector2.one * 0.5f);
+
         transform.position = pos;
+        anchor = corpsePos;
+        TetherTarget = body.transform;
 
         nearby = body.Impaled ? null : body;
         body.SetPossessed(false);
         body = null;
+
         rb.simulated = true;
+        rb.position = pos;
+        rb.linearVelocity = Vector2.zero;
         spriteRenderer.enabled = true;
+
+        // Debug.Log("Ghost left body at " + corpsePos + ", ghost placed at " + pos);
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -128,7 +156,6 @@ public class GhostMovementScript : MonoBehaviour
 
     public void ResetLevel()
     {
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentSceneIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
