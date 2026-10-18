@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PossessionObject
   gravity: 3
-  moveSpeed: 4
+  moveSpeed: 5
   jumpHeight: 1.25
   groundMask:
     serializedVersion: 2
@@ -126,7 +126,7 @@ MonoBehaviour:
   impaledWidth: 1
   impaledColliderSize: {x: 1, y: 0.45}
   impaledColliderOffset: {x: 0, y: -0.7}
-  bigJumpHeight: 10.5
+  bigJumpHeight: 5
   releaseCut: 0.4
 --- !u!114 &-1319023392812393127
 MonoBehaviour:
@@ -171,8 +171,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 439786f6928e4ee41b8849e75079277f, type: 3}
   jumpSprite: {fileID: 21300000, guid: d48edb469365ec64dbd7181c6668920c, type: 3}
   actionSprite: {fileID: 0}
+  actionFrames: []
   idleFps: 1.5
   walkFps: 8
+  actionFps: 5
   artFacesRight: 1
 --- !u!1 &7949890274300085742
 GameObject:

@@ -205,7 +205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PossessionObject
   gravity: 3
-  moveSpeed: 3
+  moveSpeed: 4
   jumpHeight: 1.25
   groundMask:
     serializedVersion: 2
