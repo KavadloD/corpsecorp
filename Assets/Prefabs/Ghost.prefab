@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 452701789636949921}
   - component: {fileID: 1300585296992812520}
   - component: {fileID: 8324082711898009352}
+  - component: {fileID: 6934095827830859028}
   m_Layer: 6
   m_Name: Ghost
   m_TagString: Untagged
@@ -128,7 +129,7 @@ MonoBehaviour:
   flyAcceleration: 30
   flyDrag: 20
   impaleEjectHeight: 1.5
-  maxRange: 6
+  maxRange: 12
 --- !u!95 &2650054020689355386
 Animator:
   serializedVersion: 7
@@ -294,11 +295,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GhostTether
   ghost: {fileID: 5468647887353421229}
   relaxedColor: {r: 0.6, g: 0.85, b: 1, a: 0.35}
-  strainedColor: {r: 0.21298595, g: 0.5575742, b: 0.7610062, a: 0.95}
+  strainedColor: {r: 0.21298595, g: 0.5575742, b: 0.7610062, a: 0.36862746}
   width: 0.08
   points: 16
-  sway: 0.25
+  sway: 0.5
   showFrom: 0.3
+--- !u!81 &6934095827830859028
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3328160300797661902}
+  m_Enabled: 1
 --- !u!1 &4299022532857852576
 GameObject:
   m_ObjectHideFlags: 0

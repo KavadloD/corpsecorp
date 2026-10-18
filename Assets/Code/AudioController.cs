@@ -9,6 +9,8 @@ public class AudioController : MonoBehaviour
         public string name;
         public AudioClip clip;
         [Range(0f, 1f)] public float volume = 1f;
+        public float minDistance = 3f;
+        public float maxDistance = 16f;
     }
 
     public static AudioController Instance { get; private set; }
@@ -100,15 +102,40 @@ public class AudioController : MonoBehaviour
 
     public static void Play(string name)
     {
-        if (Instance != null) Instance.PlayEffect(name);
+        if (Instance != null) Instance.PlayEffect(name, null);
     }
 
-    void PlayEffect(string name)
+    public static void PlayAt(string name, Vector3 position)
+    {
+        if (Instance != null) Instance.PlayEffect(name, position);
+    }
+
+    void PlayEffect(string name, Vector3? position)
     {
         foreach (var e in effects)
         {
             if (e == null || !e.clip || e.name != name) continue;
-            sfxSource.PlayOneShot(e.clip, e.volume * sfxVolume);
+
+            if (position == null)
+            {
+                sfxSource.PlayOneShot(e.clip, e.volume * sfxVolume);
+                return;
+            }
+
+            var go = new GameObject("SFX " + name);
+            go.transform.position = position.Value;
+
+            var s = go.AddComponent<AudioSource>();
+            s.clip = e.clip;
+            s.volume = e.volume * sfxVolume;
+            s.spatialBlend = 1f;
+            s.rolloffMode = AudioRolloffMode.Linear;
+            s.minDistance = e.minDistance;
+            s.maxDistance = e.maxDistance;
+            s.dopplerLevel = 0f;
+            s.Play();
+
+            Destroy(go, e.clip.length + 0.1f);
             return;
         }
     }
