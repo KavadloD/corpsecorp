@@ -25,6 +25,8 @@ public class PossessionObject : MonoBehaviour
     public float impaledWidth = 1f;
     public Vector2 impaledColliderSize = new Vector2(1f, 0.45f);
     public Vector2 impaledColliderOffset = new Vector2(0f, -0.7f);
+    public bool JumpHeld { get; set; }
+    public virtual void JumpPressed() { Jump(); }
 
     void Awake()
     {
@@ -70,6 +72,7 @@ public class PossessionObject : MonoBehaviour
         if (!possessed)
         {
             ActionHeld = false;
+            JumpHeld = false;
             Rb.linearVelocity = new Vector2(0f, Rb.linearVelocity.y);
         }
     }
