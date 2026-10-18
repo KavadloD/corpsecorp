@@ -62,7 +62,8 @@ public class GhostMovementScript : MonoBehaviour
         if (body)
         {
             if (movement.x != 0) body.Facing = (int)Mathf.Sign(movement.x);
-            if (Input.GetKeyDown(KeyCode.W)) body.Jump();
+            if (Input.GetKeyDown(KeyCode.W)) body.JumpPressed();
+            body.JumpHeld = Input.GetKey(KeyCode.W);
             if (Input.GetKeyDown(KeyCode.Space)) body.DoAction();
             body.ActionHeld = Input.GetKey(KeyCode.Space);
         }

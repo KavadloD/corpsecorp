@@ -9,6 +9,16 @@ public class JumperCorpse : PossessionObject
 
     public override void DoAction()
     {
+        BigJump();
+    }
+
+    public override void JumpPressed()
+    {
+        BigJump();
+    }
+
+    void BigJump()
+    {
         if (!IsGrounded) return;
         JumpWithHeight(bigJumpHeight);
         jumping = true;
@@ -22,7 +32,7 @@ public class JumperCorpse : PossessionObject
         {
             jumping = false;
         }
-        else if (!ActionHeld)
+        else if (!ActionHeld && !JumpHeld)
         {
             Rb.linearVelocity = new Vector2(Rb.linearVelocity.x, Rb.linearVelocity.y * releaseCut);
             jumping = false;
