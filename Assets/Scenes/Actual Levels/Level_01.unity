@@ -258642,37 +258642,37 @@ MonoBehaviour:
   effects:
   - name: possess
     clip: {fileID: 8300000, guid: ea644363c212ed342969fb7a2f004b06, type: 3}
-    volume: 0
+    volume: 0.15
     minDistance: 0
     maxDistance: 0
   - name: leave
     clip: {fileID: 8300000, guid: 4c0e7f09adc5ae04090ecb75b89b0e3e, type: 3}
-    volume: 0
+    volume: 0.5
     minDistance: 0
     maxDistance: 0
   - name: impale
     clip: {fileID: 8300000, guid: fe8771487ce6cf44a95477421127fa41, type: 3}
-    volume: 0
-    minDistance: 3
-    maxDistance: 16
+    volume: 0.4
+    minDistance: 0
+    maxDistance: 0
   - name: box_break
     clip: {fileID: 8300000, guid: 0a601628ceec1c841a3b14f93174a9ce, type: 3}
-    volume: 0
-    minDistance: 3
-    maxDistance: 16
+    volume: 0.1
+    minDistance: 0
+    maxDistance: 0
   - name: generator_on
     clip: {fileID: 8300000, guid: 631143dbed24c7a48966cc82a9d27acc, type: 3}
-    volume: 0
+    volume: 0.8
     minDistance: 4
     maxDistance: 20
   - name: door
     clip: {fileID: 8300000, guid: 77e73f01541b1b349901ad12c30dadef, type: 3}
-    volume: 0
+    volume: 1
     minDistance: 3
     maxDistance: 16
   - name: elevator_open
     clip: {fileID: 8300000, guid: f12187cfcd9d0314ba09738cde323a28, type: 3}
-    volume: 0
+    volume: 1
     minDistance: 3
     maxDistance: 18
 --- !u!4 &1243533880

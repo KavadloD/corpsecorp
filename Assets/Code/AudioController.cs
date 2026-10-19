@@ -11,6 +11,8 @@ public class AudioController : MonoBehaviour
         [Range(0f, 1f)] public float volume = 1f;
         public float minDistance = 3f;
         public float maxDistance = 16f;
+        public float pitchMin = 1f;
+        public float pitchMax = 1f;
     }
 
     public static AudioController Instance { get; private set; }
@@ -29,6 +31,7 @@ public class AudioController : MonoBehaviour
     AudioSource ghostSource;
     AudioSource sfxSource;
     GhostMovementScript ghost;
+    Transform listener;
     float mix = 1f;
     float lastTarget = 1f;
     float syncTimer;
@@ -100,24 +103,29 @@ public class AudioController : MonoBehaviour
             ghostSource.time = corpseSource.time;
     }
 
-        public static void Play(string name)
+    public static float Attenuation(Vector3 position, float minDistance, float maxDistance)
     {
-        if (Instance == null)
+        if (Instance == null) return 1f;
+
+        if (!Instance.listener)
         {
-            Debug.LogWarning("AudioController: no instance for '" + name + "'");
-            return;
+            var l = FindFirstObjectByType<AudioListener>();
+            if (!l) return 1f;
+            Instance.listener = l.transform;
         }
-        Instance.PlayEffect(name, null);
+
+        float d = Vector2.Distance(position, Instance.listener.position);
+        return Mathf.Clamp01(Mathf.InverseLerp(maxDistance, minDistance, d));
+    }
+
+    public static void Play(string name)
+    {
+        if (Instance != null) Instance.PlayEffect(name, null);
     }
 
     public static void PlayAt(string name, Vector3 position)
     {
-        if (Instance == null)
-        {
-            Debug.LogWarning("AudioController: no instance for '" + name + "'");
-            return;
-        }
-        Instance.PlayEffect(name, position);
+        if (Instance != null) Instance.PlayEffect(name, position);
     }
 
     void PlayEffect(string name, Vector3? position)
@@ -132,28 +140,30 @@ public class AudioController : MonoBehaviour
                 return;
             }
 
-            Debug.Log("SFX " + name + " volume " + (e.volume * sfxVolume) + (position == null ? " flat" : " at " + position.Value));
+            float vol = e.volume * sfxVolume;
+            if (position != null) vol *= Attenuation(position.Value, e.minDistance, e.maxDistance);
+            if (vol < 0.001f) return;
 
-            if (position == null)
+            float lo = e.pitchMin > 0f ? e.pitchMin : 1f;
+            float hi = e.pitchMax > 0f ? e.pitchMax : lo;
+            float pitch = UnityEngine.Random.Range(lo, Mathf.Max(lo, hi));
+
+            if (Mathf.Approximately(pitch, 1f))
             {
-                sfxSource.PlayOneShot(e.clip, e.volume * sfxVolume);
+                sfxSource.PlayOneShot(e.clip, vol);
                 return;
             }
 
             var go = new GameObject("SFX " + name);
-            go.transform.position = position.Value;
-
             var s = go.AddComponent<AudioSource>();
             s.clip = e.clip;
-            s.volume = e.volume * sfxVolume;
-            s.spatialBlend = 1f;
-            s.rolloffMode = AudioRolloffMode.Linear;
-            s.minDistance = e.minDistance;
-            s.maxDistance = Mathf.Max(e.maxDistance, e.minDistance + 1f);
-            s.dopplerLevel = 0f;
+            s.volume = vol;
+            s.pitch = pitch;
+            s.spatialBlend = 0f;
+            s.playOnAwake = false;
             s.Play();
 
-            Destroy(go, e.clip.length + 0.1f);
+            Destroy(go, e.clip.length / Mathf.Max(0.1f, pitch) + 0.1f);
             return;
         }
 

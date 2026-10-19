@@ -20,11 +20,7 @@ public class LoopingSound : MonoBehaviour
         src.clip = clip;
         src.loop = true;
         src.playOnAwake = false;
-        src.spatialBlend = positional ? 1f : 0f;
-        src.rolloffMode = AudioRolloffMode.Linear;
-        src.minDistance = minDistance;
-        src.maxDistance = maxDistance;
-        src.dopplerLevel = 0f;
+        src.spatialBlend = 0f;
         src.volume = 0f;
     }
 
@@ -38,7 +34,8 @@ public class LoopingSound : MonoBehaviour
         level = Mathf.MoveTowards(level, wanted ? 1f : 0f, Time.unscaledDeltaTime / Mathf.Max(0.02f, fadeTime));
 
         float master = AudioController.Instance ? AudioController.Instance.sfxVolume : 1f;
-        src.volume = level * volume * master;
+        float near = positional ? AudioController.Attenuation(transform.position, minDistance, maxDistance) : 1f;
+        src.volume = level * volume * master * near;
 
         if (level > 0f && !src.isPlaying) src.Play();
         else if (level <= 0f && src.isPlaying) src.Stop();
