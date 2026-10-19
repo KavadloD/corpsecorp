@@ -371013,7 +371013,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4636720961401815373, guid: 4767796ee96f3d34aaa29e960f050623, type: 3}
       propertyPath: devices.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4636720961401815373, guid: 4767796ee96f3d34aaa29e960f050623, type: 3}
       propertyPath: 'devices.Array.data[0]'
@@ -371042,7 +371042,7 @@ PrefabInstance:
     - target: {fileID: 4636720961401815373, guid: 4767796ee96f3d34aaa29e960f050623, type: 3}
       propertyPath: 'devices.Array.data[6]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1446523494}
     - target: {fileID: 4636720961401815373, guid: 4767796ee96f3d34aaa29e960f050623, type: 3}
       propertyPath: 'devices.Array.data[7]'
       value: 
